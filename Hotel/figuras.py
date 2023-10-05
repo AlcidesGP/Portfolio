@@ -10,6 +10,7 @@ import matplotlib.gridspec as gridspec
 
 
 
+# Função irá plotar os dados qualitativos
 
 def barras_(dados: list, titulo: str, tamanho: tuple, t_imagem: tuple, target: str = None) -> None:
     """
@@ -105,6 +106,104 @@ def barras_(dados: list, titulo: str, tamanho: tuple, t_imagem: tuple, target: s
             
     return plt.show()
 
+# Gráfico de distribuição dos dados quantitativos.
+
+def disp_(dados: list, titulo: str, tamanho: tuple, fig_size: tuple) -> None:
+    """
+    Modelo retorna um subplot dentro do subplot com o box e o histograma
+    para os dados numéricos.
+    
+    tamanho => tuple: Vai definir quantos gráficos estarão presentes dentro da imagem, na posição tamanho[0] estará quantas
+    linhas a imagem deve ter, já no tamanho[1] quantas colunas. 
+    titulo => string: Título do gráfico
+    tamanho => tuple: Quais as dimensões da imagem
+    fig_size => tuple: Tamanho da imagem.
+    
+    """
+    dt = dados.copy()
+    fig = plt.figure(figsize=fig_size)
+    outer = gridspec.GridSpec(tamanho[0], tamanho[1], wspace=0.3, hspace=0.5) # Tamanho de imagem.
+    entrada = dt.shape[1] # Quantidade de atributos
+    c = 0 
+    fig.suptitle(titulo, fontsize=30, color='dimgrey') # Título da figura.
+    
+    plt.subplots_adjust(wspace = 0.5, # Espaço vertical entre os gráficos
+                        hspace = 0.5) # Espaço horizontal entre os gráficos
+
+# ========================= Plotagem ==============================
+        # Configuração dos outliers mostrados no boxplot
+    flierprops = dict(marker='x', markerfacecolor='r', markersize=4,
+                  linestyle='none', markeredgecolor='orangered') #
+    
+    column = 0
+        # Loop para geração do gráfico
+    for row in range(tamanho[0]):
+
+        for col in range(tamanho[1]):
+            ### Lógica de expanção gráfica para casos ímpares.
+            if c == entrada -1:
+                inner = gridspec.GridSpecFromSubplotSpec(2, 1, subplot_spec=outer[row,col:],wspace=0.1, hspace=0)
+            else:
+                inner = gridspec.GridSpecFromSubplotSpec(2, 1, subplot_spec=outer[c],wspace=0.1, hspace=0)
+
+            coluna = dt.columns[column] # Coluna sendo trabalhada no looping
+            
+            
+                # ---- Criar gráfico de box-plot -----------------       
+            ax = plt.Subplot(fig, inner[0]) # Axis .
+            
+            fig.add_subplot(ax) # Adicionar o axis na figura.
+            
+            box = sns.boxplot(data=dt, # Plotagem Gráfica
+                              orient='h',
+                              x = dt[coluna],
+                              ax=ax, width=.3, color='limegreen', flierprops=flierprops) 
+
+
+            box.axis('off') # Desativar barras de eixo.
+            box.set_title(f'{dt.columns[column]}',horizontalalignment='left', x=0,fontsize=18,color='dimgrey') # Título.
+                    
+                # Plotar na imagem os LS, LI, Q1 , Q2
+            quantiles = dt[coluna].quantile([0.25, 0.75]).values.tolist() # Separação dos quantiles.
+            LI = quantiles[0] - ((quantiles[1] - quantiles[0])*1.5) # Definir limite inferior
+            LS = quantiles[1] + ((quantiles[1] - quantiles[0])*1.5) # Definir limte superior
+            if LI < dt[coluna].min(): # Loop que vai reposicionar em caso de valores abaixo/acima do cálculado.
+                LI = dt[coluna].min()
+            if LS > dt[coluna].max():
+                LS = dt[coluna].max()
+            
+            posse = ['right', 'left'] # Reajustar a posição no boxplot.
+            for ix in [int(LI),int(LS)]: # Plotar no gráfico.
+                box.annotate(round(ix,2), xy=(ix, 0.22), fontsize=12, color='black')
+            for ix,poss in zip(quantiles,posse):
+                
+                box.annotate(round(ix,2), xy=(ix, -0.22), fontsize=12, color='black',horizontalalignment=poss)
+            
+                # ---- Criar gráfico histograma. --------------
+            
+            ax = plt.Subplot(fig, inner[1]) # Axis .
+            fig.add_subplot(ax) # Adicionar o axis na figura.
+            
+            hist = sns.histplot(data=dt, x = coluna,color='blueviolet', stat='frequency') # Plotagem Histograma.
+                              # Desativar
+            hist.spines['top'].set_visible(False)
+            hist.spines['right'].set_visible(False)
+            
+                             # Alterar
+            hist.spines['bottom'].set_color('darkgrey')
+            hist.tick_params(axis='y', colors='black')
+            hist.tick_params(axis='x', colors='darkgrey')
+            hist.set(xlabel='Intervalo de variação', ylabel='')
+            
+            
+                    ### Quebrar a função em caso de número não igual ao tamanho da imagem.
+            if c == entrada -1:
+                break
+            else:
+                c+=1
+
+            column += 1
+    return plt.show()
 
 
 
