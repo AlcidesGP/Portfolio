@@ -174,8 +174,7 @@ st.write(" Segue o link para a coleta de dados -> [https://alcidescoutinho.githu
 
 st.button("Rerun")
 def carregar_dados():
-    #data = pd.read_csv("C:\\Users\\alcid\\Python\\Projetos\\Covid 19\\Dataset\\dados_tratado.csv")
-    data = pd.read_csv("C:\\Users\\alcid\\Python\\Projetos\\Ofertas de emprego\\Nova base\\base_dados_tratado.csv")
+    data = pd.read_csv("base_dados_tratado.csv")
     return data
 
 df = carregar_dados()
