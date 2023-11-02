@@ -23,7 +23,7 @@ st.button("Rerun")
 
 @st.cache_data
 def carregar_dados():
-    data = pd.read_csv("base_dados_tratado.csv")
+    data = pd.read_csv("EBAC/Streamlit/base_dados_tratado.csv")
     return data
 
 df = carregar_dados()
