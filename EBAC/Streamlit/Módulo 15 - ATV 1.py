@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.subplots as sp
@@ -18,7 +17,6 @@ st.write(""" Segue o link para a coleta de dados -> [https://alcidescoutinho.git
 
 st.button("Rerun")
 def carregar_dados():
-    #data = pd.read_csv("C:\\Users\\alcid\\Python\\Projetos\\Covid 19\\Dataset\\dados_tratado.csv")
     data = pd.read_csv("base_dados_tratado.csv")
     return data
 
