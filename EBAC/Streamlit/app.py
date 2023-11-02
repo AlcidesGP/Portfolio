@@ -8,6 +8,10 @@ import plotly.express as px
 import plotly.subplots as sp
 import plotly.graph_objects as go
 
+teste = !pip freeze
+
+st.write(teste)
+
 st.set_page_config(layout="wide")
 st.title('Módulo 15 - Atividade I')
 st.write('- Reproduzir, ao menos, 20 códigos extraídos das páginas da documentação do streamlit')
@@ -110,6 +114,7 @@ st.data_editor(
         )
     }
     )
+
 
 st.title('Avaliação por vaga')
 
