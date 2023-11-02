@@ -18,6 +18,8 @@ st.write("""- Para realizar a atividade, irei utilizar um dataset que fiz coleta
 st.write(""" Segue o link para a coleta de dados -> [https://alcidescoutinho.github.io/alcidesgabriel.github.io/C%C3%B3digo%20em%20HTML/Coleta_dos_dados_de_vaga%20(1).html]""")
 
 st.button("Rerun")
+
+@st.cache_data
 def carregar_dados():
     data = pd.read_csv("base_dados_tratado.csv")
     return data
