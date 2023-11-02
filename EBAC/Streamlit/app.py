@@ -1,3 +1,4 @@
+from gc import freeze
 import streamlit as st
 
 
@@ -8,9 +9,6 @@ import plotly.express as px
 import plotly.subplots as sp
 import plotly.graph_objects as go
 
-teste = !pip freeze
-
-st.write(teste)
 
 st.set_page_config(layout="wide")
 st.title('Módulo 15 - Atividade I')
