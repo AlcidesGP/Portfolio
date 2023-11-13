@@ -9,7 +9,7 @@ st.title('Projeto 2 - Análise estatística dos dados')
 st.subheader("Abaixo estão as informações estatística do comportamento de cada atributo dos dados renda.")
 st.write("""O botão abaixo irá redirecionar-te para a página do notebook de todo o projeto de previsão, aonde se encontra 
          os trabalho realizado com base no método Crisp-DM.""")
-st.link_button("Notebook do modelo", "https://nbviewer.org/github/AlcidesGP/Portfolio/blob/main/EBAC/projeto%202/projeto-2.ipynb")
+st.link_button("Notebook do modelo", "https://nbviewer.org/github/AlcidesGP/Portfolio/blob/main/EBAC/projeto_2/projeto-2.ipynb")
 
 @st.cache_data
 def carregar_dados():
