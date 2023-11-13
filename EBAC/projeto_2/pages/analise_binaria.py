@@ -13,7 +13,8 @@ st.write("Abaixo estão as informações estatística do comportamento de cada a
 
 @st.cache_data
 def carregar_dados():
-    data = pd.read_csv("EBAC/projeto_2/previsao_de_renda.csv")
+    data = pd.read_csv("C:\\Users\\alcid\\GitHub\\Portfolio\\EBAC\\projeto_2\\previsao_de_renda.csv")
+    #data = pd.read_csv("EBAC/projeto_2/previsao_de_renda.csv")
     return data
 
 
