@@ -13,7 +13,7 @@ st.link_button("Notebook do modelo", "https://nbviewer.org/github/AlcidesGP/Port
 
 @st.cache_data
 def carregar_dados():
-    data = pd.read_csv("C:\\Users\\alcid\\GitHub\\Portfolio\\EBAC\\projeto 2\\input\\previsao_de_renda.csv")
+    data = pd.read_csv("EBAC/projeto_2/previsao_de_renda.csv")
     return data
 
 renda = carregar_dados()
