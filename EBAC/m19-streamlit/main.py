@@ -14,8 +14,8 @@ st.set_page_config(
 ### ------------------------------------- Funções Base  ---------------------------------------------------------
 @st.cache_data()
 def loader():
-    return pd.read_csv("./bank-additional-full.csv", sep=';', header=0)
-    # return  pd.read_csv("C:\\Users\\alcid\\GitHub\\Portfolio\\EBAC\\Streamlit - Módulo 19 - Bank\\bank-additional-full.csv", sep=';')
+    return pd.read_csv("./m19-streamlit/bank-additional-full.csv", sep=';', header=0)
+    #return  pd.read_csv("C:\\Users\\alcid\\GitHub\\Portfolio\\EBAC\\m19-streamlit\\bank-additional-full.csv", sep=';')
 
 @st.cache_data()
 def selecao_atributos(relatorio, col, selecionados):
@@ -47,7 +47,7 @@ def main():
         df_raw = df.copy()
 
     # +++++++++++++ Sidebar  Filtros +++++++++++++
-    
+
     with st.sidebar.form(key='my_form'):
 
 
@@ -75,7 +75,11 @@ def main():
             df = df.pipe(selecao_atributos, col, filtro_selecionado)
 
         st.form_submit_button(label='aplicar')
+    # +++++++++++++ Main Page +++++++++++++ 
 
+    # ------------ Início 
+    st.write("#### Dados de entrada")
+    st.dataframe(df.head(5))
 
 
 if __name__ == '__main__':
