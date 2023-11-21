@@ -10,8 +10,8 @@ st.set_page_config(
     layout='wide',
     initial_sidebar_state='expanded',
 )
-df = pd.read_csv("EBAC/m19-streamlit/bank-additional-full.csv", sep=';')
-df
+#df = pd.read_csv("EBAC/m19-streamlit/bank-additional-full.csv", sep=';')
+#df
 ### ------------------------------------- Funções Base  ---------------------------------------------------------
 @st.cache_data()
 def loader():
