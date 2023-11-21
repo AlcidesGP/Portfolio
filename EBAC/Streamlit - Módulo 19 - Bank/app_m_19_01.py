@@ -39,8 +39,8 @@ def main():
 
     # +++++++++++++ Sidebar inicial +++++++++++++
 
-    #imagem = Image.open("./img/Bank-Branding.jpg")
-    imagem = Image.open("C:\\Users\\alcid\\GitHub\\Portfolio\\EBAC\\Streamlit - Módulo 19 - Bank\\img\\Bank-Branding.jpg")
+    imagem = Image.open("./img/Bank-Branding.jpg")
+    #imagem = Image.open("C:\\Users\\alcid\\GitHub\\Portfolio\\EBAC\\Streamlit - Módulo 19 - Bank\\img\\Bank-Branding.jpg")
     st.sidebar.image(imagem)
 
     st.sidebar.write("### Suba o arquivo")
