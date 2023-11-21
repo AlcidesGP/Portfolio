@@ -14,3 +14,4 @@ matplotlib==3.7.2
 matplotlib-inline==0.1.6
 streamlit==1.28.0
 plotly==5.9.0
+pillow==10.1.0
