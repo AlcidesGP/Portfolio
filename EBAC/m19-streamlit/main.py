@@ -46,6 +46,38 @@ def main():
         df = loader()
         df_raw = df.copy()
 
+    # +++++++++++++ Sidebar  Filtros +++++++++++++
+    
+    with st.sidebar.form(key='my_form'):
+
+
+        max_age = int(df.age.max())
+        min_age = int(df.age.min())
+        idades = st.slider(
+             label='Idade', 
+             min_value = min_age,
+             max_value = max_age, 
+             value = (min_age, max_age),
+             step = 1
+        )
+
+        df = df.query("age >= @idades[0] and age <= @idades[1]")
+
+        lista_filtros = ["Profissão","Estado civil", "Default", 
+                        "Tem financiamento imob?", "Tem empréstimo?", 
+                        "Meio de contato", "Mês do contato", "Dia da semana"]
+        lista_cols = ['job','marital', 'default', 'housing', 'loan', 'contact', 'month', 'day_of_week']
+
+        for filtro,col in zip(lista_filtros, lista_cols):
+            lista_temporaria = df[col].unique().tolist()
+            lista_temporaria.append('all')
+            filtro_selecionado =  st.multiselect(filtro, lista_temporaria, ['all'])
+            df = df.pipe(selecao_atributos, col, filtro_selecionado)
+
+        st.form_submit_button(label='aplicar')
+
+
+
 if __name__ == '__main__':
 	main()
     
