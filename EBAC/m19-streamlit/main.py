@@ -34,6 +34,17 @@ def main():
     st.write("Análise de dados para o marketing ativo para a contratação de um serviço")
     st.markdown('---')
 
+    st.sidebar.write("### Suba o arquivo")
+    data = st.sidebar.file_uploader('Dados de marketing', type=['csv','xlsx'])
+
+    # +++++++++++++ Dataset +++++++++++++
+
+    if (data is not None):
+        df = pd.read_csv(data, sep=';')
+        df_raw = df.copy()
+    else:
+        df = loader()
+        df_raw = df.copy()
 
 if __name__ == '__main__':
 	main()
