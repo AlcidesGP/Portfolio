@@ -81,6 +81,60 @@ def main():
     # ------------ Início 
     st.write("#### Dados de entrada")
     st.dataframe(df.head(5))
+# ----------- Colunas 
+    col_1, col_2 = st.columns(2)
+    col_1.write("#### Sucesso Original")
+    col_1.dataframe(df_raw['y'].value_counts())
+    col_1.download_button(label='📥 Download',data=df_raw.to_csv(), file_name='bank_raw.csv')
+
+   
+    col_2.write("#### Sucesso (Filtrado)")
+    col_2.dataframe(df['y'].value_counts())
+    col_2.download_button(label='📥 Download ',data = df.to_csv(), file_name='bank.csv')
+    st.markdown('---')
+
+    # +++++++++++++ Gráfico  +++++++++++++ 
+    st.write("## Plot Gráfico")
+    tipo = st.sidebar.radio('Tipo de gráfico:', ('Barra', 'Pizza')) 
+
+    if tipo == 'Barra':
+        figura = plt.figure(figsize=(10,5))
+        plt.subplots_adjust(
+            hspace=0.8,
+            wspace=0.4
+        )
+        
+        ax = plt.subplot2grid((1,2), (0,0))
+        bar = sns.countplot(data=df_raw, x='y', ax=ax)
+        for i in bar.patches:
+            bar.annotate(i.get_height() ,xy=(i.get_xy()[0]+0.4,i.get_height()*1.01), horizontalalignment='center')
+        plt.title('Dados Originais ', fontsize=12)
+
+        
+        ax = plt.subplot2grid((1,2), (0,1))
+        bar = sns.countplot(data=df, x='y', ax=ax)
+        for i in bar.patches:
+            bar.annotate(i.get_height() ,xy=(i.get_xy()[0]+0.4,i.get_height()*1.01), horizontalalignment='center')
+        plt.title('Dados Filtrados', fontsize=12)
+
+    else:
+        if tipo == 'Pizza':
+            figura = plt.figure(figsize=(10,5))
+            plt.subplots_adjust(
+                hspace=0.8,
+                wspace=0.4
+            )
+            ax = plt.subplot2grid((1,2), (0,0))
+            base = df_raw['y'].value_counts()
+            plt.pie(x=base.values, labels=base.index, autopct="%1.1f%%")
+            plt.title('Dados Originais', fontsize=12)
+            
+            ax = plt.subplot2grid((1,2), (0,1))
+            base = df['y'].value_counts()
+            plt.pie(x=base.values, labels=base.index, autopct="%1.1f%%")
+            plt.title('Dados Filtrados', fontsize=12)
+
+    st.pyplot(plt)
 
 
 if __name__ == '__main__':
