@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
-from PIL import Image
+
 import matplotlib.pyplot as plt
 import seaborn as sns
 
@@ -39,9 +39,9 @@ def main():
 
     # +++++++++++++ Sidebar inicial +++++++++++++
 
-    imagem = Image.open("./Bank-Branding.jpg")
+    #imagem = Image.open("./Bank-Branding.jpg")
     #imagem = Image.open("C:\\Users\\alcid\\GitHub\\Portfolio\\EBAC\\Streamlit - Módulo 19 - Bank\\img\\Bank-Branding.jpg")
-    st.sidebar.image(imagem)
+    #st.sidebar.image(imagem)
 
     st.sidebar.write("### Suba o arquivo")
     data = st.sidebar.file_uploader('Dados de marketing', type=['csv','xlsx'])
