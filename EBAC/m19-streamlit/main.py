@@ -14,7 +14,7 @@ st.set_page_config(
 ### ------------------------------------- Funções Base  ---------------------------------------------------------
 @st.cache_data()
 def loader():
-    return pd.read_csv("./m19-streamlit/bank-additional-full.csv", sep=';', header=0)
+    return pd.read_csv("./bank-additional-full.csv", sep=';')
     #return  pd.read_csv("C:\\Users\\alcid\\GitHub\\Portfolio\\EBAC\\m19-streamlit\\bank-additional-full.csv", sep=';')
 
 @st.cache_data()
