@@ -23,3 +23,18 @@ def selecao_atributos(relatorio, col, selecionados):
         return relatorio
     else:
         return relatorio.loc[relatorio[col].isin(selecionados)].reset_index(drop=True)
+    
+
+### ================================= Função principal ================================
+
+def main():
+    # +++++++++++++ Inicial +++++++++++++
+    
+    st.title("Análise de resultado - marketing ativo")
+    st.write("Análise de dados para o marketing ativo para a contratação de um serviço")
+    st.markdown('---')
+
+
+if __name__ == '__main__':
+	main()
+    
