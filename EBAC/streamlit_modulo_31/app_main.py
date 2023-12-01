@@ -21,7 +21,9 @@ texto = """# RFV
     E é isso que iremos fazer abaixo."""
 st.write(texto)
 st.markdown('---')
-
+st.sidebar.write('# Carregar os Dados')
+st.sidebar.write('Click no botão abaixo para acessar ao código no github')
+st.sidebar.link_button('Github', 'https://github.com/AlcidesGP/Portfolio/tree/main/EBAC/streamlit_modulo_31')
 ### Criando os segmentos
 def recencia_class(x, r, q_dict):
     """Classifica como melhor o menor quartil 
@@ -54,7 +56,7 @@ def freq_val_class(x, fv, q_dict):
         return 'A'
     
 dados = st.sidebar.file_uploader('dados',type=['csv','xlsx'])
-
+page = st.sidebar.selectbox('Caso Deseje não inserir dados, escolha um dos dois datasets',['Dataset_1','Dataset_2'])
 if (dados is not None):
     df_compras = pd.read_csv(
         dados, 
@@ -63,12 +65,19 @@ if (dados is not None):
     )
 
 else:
-    df_compras = pd.read_csv(
-        "C:\\Users\\alcid\GitHub\\Portfolio\\EBAC\\streamlit_modulo_31\\dados_input 1.csv",
-        #"./dados_input 1.csv",
-        infer_datetime_format=True, 
-        parse_dates=['DiaCompra']
-        )
+    if (page == 'Dataset_1'):
+        df_compras = pd.read_csv(            
+            "./dados_input 1.csv",
+            infer_datetime_format=True, 
+            parse_dates=['DiaCompra']
+            )
+    elif (page == 'Dataset_2'):
+        df_compras = pd.read_csv(            
+            "./dados_test_input 2.csv",
+            infer_datetime_format=True, 
+            parse_dates=['DiaCompra']
+            )
+        df_compras = df_compras.drop(df_compras.columns[0],axis=1)
 
     #mostrar dados
     col1, col2, col3 = st.columns(3)
