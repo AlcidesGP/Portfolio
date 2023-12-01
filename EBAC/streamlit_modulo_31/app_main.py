@@ -62,6 +62,14 @@ if (dados is not None):
         parse_dates=['DiaCompra']
     )
 
+else:
+    df_compras = pd.read_csv(
+        "C:\\Users\\alcid\GitHub\\Portfolio\\EBAC\\streamlit_modulo_31\\dados_input 1.csv",
+        #"./dados_input 1.csv",
+        infer_datetime_format=True, 
+        parse_dates=['DiaCompra']
+        )
+
     #mostrar dados
     col1, col2, col3 = st.columns(3)
     col2.write(f"# Dados")
