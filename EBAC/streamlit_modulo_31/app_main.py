@@ -66,14 +66,14 @@ if (dados is not None):
 
 else:
     if (page == 'Dataset_1'):
-        df_compras = pd.read_csv(            
-            "./dados_input 1.csv",
+        df_compras = pd.read_csv(
+            "EBAC/streamlit_modulo_31/dados_input 1.csv",
             infer_datetime_format=True, 
             parse_dates=['DiaCompra']
             )
     elif (page == 'Dataset_2'):
         df_compras = pd.read_csv(            
-            "./dados_test_input 2.csv",
+            "EBAC/streamlit_modulo_31//dados_test_input 2.csv",
             infer_datetime_format=True, 
             parse_dates=['DiaCompra']
             )
