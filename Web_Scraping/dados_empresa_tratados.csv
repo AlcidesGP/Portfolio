@@ -1,0 +1,625 @@
+Empresa,Cargo,Local,Dias da postagem,Link,Descrição,nota
+C&A Brasil,jr,Trabalho remoto,13,"https://www.glassdoor.com.br/job-listing/cientista-de-dados-jr-ca-brasil-JV_KO0,21_KE22,31.htm?jl=1008995167824","Trabalhamos para você ser mais você em todos os momentos, começando pela sua carreira
+Referência no varejo de moda, a C&A se orgulha de ter mais de 14 mil pessoas atuando em suas operações no Brasil para oferecer a melhor experiência para nossas clientes!
+Trabalhar na C&A é fazer parte de um ambiente inovador e divertido, que estimula o desenvolvimento profissional em todas as fases da carreira.
+Aqui você pode ser quem é! O respeito às pessoas e à diversidade fazem parte dos nossos valores.
+Enxergamos a moda como uma plataforma de expressão e de como as pessoas se conectam.
+Queremos fazer uma moda com impacto positivo, o que nos torna únicos. Nossa cultura acredita no valor e na riqueza das diferenças. Somos uma multinacional com alma brasileira.
+Curta nossa página de carreira no Linkedin para saber mais sobre nosso dia-a-dia!
+Se você se identifica com a C&A e procura uma empresa, acima de tudo, apaixonada por pessoas, #VemPraCeA.
+Responsabilidades e atribuições
+
+ Construir, aprimorar e acompanhar modelos preditivos para diversas frentes do negócio, gerando insumos para as políticas de crédito e cobrança;
+Lidar com análise de dados em diferentes níveis de granularidade e conhecimento, efetuando cruzamentos com bancos de dados on-cloud, dados estruturados e não estruturados, fontes externas de bureaus de dados e processamento de bigdata;
+Apresentar o resultado de análises, modelos e status de cronograma em reuniões de projeto/comitê;
+Validar e monitorar todos os modelos em produção, garantindo a performance dos modelos dentro dos parâmetros pré-estabelecidos e fazer os ajustes e retreinos sempre que necessário;
+Ser proativo em apresentar novas sugestões de tecnologia e abordagens no desenvolvimento de modelos preditivos;
+
+Requisitos e qualificações
+
+Ensino superior completo em Engenharia, Estatística, Matemática, Análise de Sistemas ou áreas correlatas;
+Experiência em áreas correlatas (MIS, BI, planejamento financeiro, controladoria);
+Experiência em desenvolver modelos estatísticos, aplicando técnicas de machine learning, regressão, clusterização, ensemble methods;
+Python nível intermediário em bibliotecas de manipulação de dados e machine learning;
+Conhecimentos em serviços cloud (AWS, RDS, Jupyter notebook);
+Excel intermediário e SQL (Intermediário);
+Diferencial: conhecimentos em PySpark.
+
+
+Informações adicionais
+O que oferecemos?
+
+Assistência Médica e Odontológica (Titular e Dependentes);
+Dr. C&A - Telemedicina e Teleterapias;
+Bônus anual;
+Estacionamento ou VT (Local de trabalho Alphaville – Barueri/SP);
+BDay Off, no mês de aniversário você tem um dia de folga de presente para você!
+Horário flexível;
+Benefício Refeição Flex (VA e/ou VR);
+Gympass;
+Férias Semestrais;
+Desconto em compras nas lojas C&A e e-commerce.
+A C&A é uma das maiores redes de varejo de moda no mundo. De origem holandesa, foi fundada em 1841 pelos irmãos Clemens e August, cuja união das iniciais de seus nomes resultou na marca C&A.
+Nessa trajetória de sucesso, em 1976 foi inaugurada a primeira loja no Brasil, no Shopping Ibirapuera, em São Paulo. Atualmente, a C&A está presente em todos os estados do território nacional com mais de 300 lojas. Claro que, desde a sua primeira unidade, muita coisa mudou, mas a filosofia de trabalho continua a mesma: oferecer o melhor da moda por preços justos.
+o dna da marca
+Para nós da C&A, estar na moda é poderosamente divertido. Por isso, trazemos inovações e tendências com uma moda democrática e abusada, que reflete a preferência das diferentes mulheres brasileiras. Fomos pioneiros ao lançar coleções exclusivas com grandes nomes da moda nacional e internacional, dentro da plataforma C&A Collection.
+C&A Fashion Tech
+Com a estratégia C&A Fashion Tech, a companhia tem como grande meta e objetivo nos próximos anos, ser uma companhia de moda digital, que mais entende a mulher brasileira, com lojas físicas e muita conexão emocional.",3.3
+alt.bank,Não Especificado no título,Trabalho remoto,4,"https://www.glassdoor.com.br/job-listing/pessoa-cientista-de-dados-alt-bank-JV_KO0,25_KE26,34.htm?jl=1009009706901","alt.bank é um player revolucionário no cenário de serviços financeiros, com o objetivo de democratizar o acesso financeiro para milhões de pessoas em todo o país. Impulsionada por uma tecnologia inovadora, nossa missão é simplificar e melhorar a vida de nossos clientes, fornecendo a eles soluções financeiras fáceis de usar, seguras e impactantes.
+À medida que entramos em uma fase empolgante de crescimento e expansão, sua sólida experiência em desenvolver e aprimorar modelos de ML será fundamental para impulsionar nossa próxima fase de inovação e crescimento. Você fará parte de uma equipe pioneira que arquiteta, projeta e cria soluções para remodelar o cenário das fintechs. Essa pessoa trabalhará diretamente com o gerente de Machine Learning e também terá um relacionamento próximo com o nosso Chief of Credit, além de outros executivos da empresa.
+Procuramos pessoas que sejam, acima de tudo, curiosas e capazes de mergulhar de cabeça no produto, rapidamente entender nosso funcionamento e ajudar a resolver as dores de nossos clientes, sempre com o apoio dos times e da liderança.
+¹ - saiba mais sobre nosso Manifesto Financeiro em: https://www.altbank.com.br/sobre-nos/
+² - saiba mais da USV em: www.usv.com
+Responsabilidades e atribuições
+
+Programar em Python e conhecimento das suas bibliotecas mais comumente usadas em ciência de dados - pandas, Numpy, Matplotlib
+Desenvolver modelos de aprendizagem supervisionada
+Entender todo o processo de construção de um modelo, desde a exploração dos dados até a inspeção
+Conhecer o funcionamento dos principais algoritmos (regressões lineares, árvores de decisão, bagging e boosting)
+Comunicar descobertas, análises e recomendações de forma clara e concisa
+Elaborar visualizações que traduzam a essência das mensagens
+
+Requisitos e qualificações
+
+Construir queries em SQL
+Utilizar ferramentas de processamento em paralelo (Spark, Hadoop)
+Saber utilizar plataformas integradas de Machine Learning (SageMaker, Databricks)
+Entender sobre boas práticas de versionamento (GitLab)
+Conhecer o mercado de risco de crédito e o funcionamento de produtos como cartões de crédito
+Entender sobre experimentação, inferência causal e testes de hipótese
+
+Informações adicionais
+Modelo de contrato PJ - remoto;
+Reembolso Plano de saúde
+Cartão flexível de benefícios (Caju);
+Plano Gympass corporativo;
+Assinatura Alura;
+Parceria com SESC;
+30 dias de descanso remunerado após 1 ano;
+Stock Options
+A missão da alt.bank é melhorar a vida de um bilhão de pessoas através da justiça financeira e da inclusão no sistema financeiro global. Nenhum outro banco no Brasil tem um compromisso social tão amplo como nosso Manifesto Financeiro¹.
+Lançado em Outubro de 2018 através de parcerias com o Banco Central do Brasil e Visa, nosso objetivo a longo prazo foi angariar 30 milhões de brasileiros e 60 milhões de latino-americanos como clientes da conta digital.
+O novücard foi lançado em Julho de 2022 e é produto do alt.bank e tem como missão trazer justiça financeira por meio de taxas de juros justas e transparentes para o Brasil.
+Sediado em São Paulo, temos hoje mais de 200.000 clientes e se prepara para escalar sua plataforma através de uma série de produtos de crédito posicionados singularmente para ajudar os brasileiros que querem melhorar suas vidas. A empresa fechou recentemente um financiamento de US$ 10 milhões da Série A - liderado pela Union Square Ventures, sediada em Nova York. Somos o primeiro investimento na América do Sul para USV², amplamente considerado como o investidor Série A de maior sucesso do mundo.
+O nosso time é formado por equipes que trabalham com alta performance, sempre damos o nosso máximo para cuidar dos nossos membros com eficiência e carinho. Temos valores que consideramos essenciais para um ambiente de trabalho harmônico e confortável, e nossos comportamentos são continuamente norteados por eles.
+Nossa gestão é formada por grandes influenciadores de suas áreas de atuação na América Latina que são:
+Brad Liebmann, Fundador & CEO - https://www.linkedin.com/in/liebmann/
+Fabio Silva, Country Manager -https://www.linkedin.com/in/fabiosilvaamin/
+Gustavo Busnardo, CTO - https://www.linkedin.com/in/gustavobusnardo
+Diversidade e inclusão
+Prezamos por um ambiente harmonioso que respeitas as diferenças, uma cultura diversa que integra o melhor de cada indivíduo em sua performance. Cuidamos para que todas as pessoas sejam integradas e respeitadas!
+Promover estruturas para os nossos membros seguirem seus sonhos é um privilégio para nós, e é importante sempre buscar melhorias e adaptações para realizar esse trabalho da melhor forma possível!
+Aqui todos temos voz, e sabemos a importância de cada um na construção de um futuro melhor. Entendemos que as grandes mudanças surgem de pequenas ações feitas com amor, e que o trabalho que fazemos aqui tem o potencial de mudar e encantar o mundo.
+A transformação começa aqui, com cada um de nós! Vai ficar de fora dessa?
+
+¹ - saiba mais sobre nosso Manifesto Financeiro em: https://www.altbank.com.br/sobre-nos/
+² - saiba mais da USV em: www.usv.com
+CONHEÇA MAIS SOBRE NÓS
+Website; LinkedIn; Glassdoor",4.0
+innolevels,Não Especificado no título,Trabalho remoto,7,"https://www.glassdoor.com.br/job-listing/cientista-de-dados-innolevels-JV_KO0,18_KE19,29.htm?jl=1009003527140",não encontrado.,4.4
+Brivia,Não Especificado no título,Trabalho remoto,30,"https://www.glassdoor.com.br/job-listing/cientista-de-dados-brivia-JV_KO0,18_KE19,25.htm?jl=1007126351372","Vaga para nosso BANCO DE TALENTOS
+Procuramos Cientista de Dados, que apoiem o crescimento da empresa e proponham KPIs de sucesso e seu acompanhamento. Trabalhamos com grandes volumes de dados e transformamos em informação de performance minuto a minuto. A melhoria contínua do produto é o nosso principal objetivo, além de entender como podemos agregar cada vez mais ao mercado financeiro.
+Você deve ser capaz de trabalhar com grandes volumes de dados em real time e criar análises e visualizações estruturadas a partir deles (planilhas já não nos atendem mais).
+Somos inquietos, somos desbravadores e estamos em constante transformação.
+Por isso, estamos na busca constante de crescimentos do nosso time com profissionais inovadores, que desafiam os limites e estejam preparados para embarcar em uma cultura totalmente nômade.
+SOMOS NÔMADES, NOSSAS VAGAS SÃO PARA QUALQUER LUGAR!
+Seja qual for o seu gênero, orientação sexual, idade, raça, etnia, crença ou deficiência, todos são bem-vindos no nosso time.
+Responsabilidades e atribuições
+
+Fornecer relatórios e dashboards operacionais e financeiros para níveis executivos, clientes e gestão interna;
+Participar da construção de metas e KPIs da empresa;
+Estar apto a transformar a área de relatórios gerenciais, com implantação de novas ferramentas como ERP;
+Alta capacidade em análise e manipulação de base de dados de B.I.;
+Aplicar as técnicas em ciência de dados para a resolução de problemas complexos de negócio, sempre orientado aos resultados mais relevantes para a companhia;
+Buscar melhorias nos processos de Business Intelligence e Big Data da empresa, garantindo a aplicação de melhores práticas e atualizando os processos internos.
+
+Requisitos e qualificações
+
+Conhecimento em linguagem de programação Phyton, R ou Scala;
+Conhecimento em SQL e NoSQL;
+﻿Graduação em andamento/completa em Matemática, Estatística ou áreas correlatadas;
+Muita vontade para desbravar.
+
+Informações adicionais
+Os desbravadores tem:
+Horário flexível, aqui você é responsável por se organizar;
+Cultura ágil, aqui todos os desbravadores utilizam metodologias ágeis no dia a dia;
+No dress code, seja 100% você;
+Vale transporte;
+Vale refeição ou alimentação FLEX;
+Gympass;
+Plano odontológico Bradesco;
+Plano de saúde Bradesco;
+Seguro de vida Metlife;
+Bem estar psicológico gratuito;
+Brivia Academy, treinamentos para aperfeiçoamento;
+Bônus salarial;
+Programa de desenvolvimento de idiomas;
+Parceria e descontos em Universidades;
+Associação e descontos na ABRADI;
+E o melhor de todos: trabalhe de onde você quiser, somos nômades e estamos 100% em home office!
+Estamos entre as melhores agências para se trabalhar no Brasil!
+Na Brivia, você precisa estar com a mente e o passaporte sempre abertos. Afinal, nós vamos onde nossos clientes, seus problemas e nossas soluções nos levam.
+Sim, temos sedes no Brasil, na America Latina e na Europa, mas acreditamos no trabalho remoto. Temos b.a.s.e em 4 estados brasileiros, mas com profissionais espalhados por mais de 10 estados. Possuímos um escritório estratégico em Lisboa, Portugal, além de escritórios no Chile, Argentina e Colômbia. Mas não temos endereço fixo. Acreditamos no trabalho remoto e na autonomia profissional para tomar decisões em busca de novos resultados. Estamos em todos os lugares!
+Buscamos sempre ter entre nós pessoas realizadas e valorizadas e nos esforçamos todos os dias para fazer da Brivia um lugar próspero e rico em possibilidades.
+Se identifica? Vem pra Brivia, vem desbravar o Digital Branding com a gente and be nômade!",4.0
+Globo,Não Especificado no título,Trabalho remoto,30,"https://www.glassdoor.com.br/job-listing/cientista-de-dados-big-data-ai-globo-JV_KO0,30_KE31,36.htm?jl=1007567289926","A Globo é feita de gente que quer fazer diferente, fazer junto, fazer o futuro. Gente espalhada por todo o país (e mundo!) trabalhando com conteúdo, notícias, negócios, tecnologia e brasilidade de sobra. Canais na TV aberta e por assinatura, produtos digitais como globoplay, Cartola, g1, ge, gshow e outros serviços estão reunidos no mesmo lugar, na mesma globo. Novos modelos de negócios digitais estão sendo pensados e desenvolvidos, buscando nos aproximar cada vez mais do usuário e dos seus desejos. As oportunidades de novos negócios também trazem a chance e o desafio de construirmos novos times data-driven e que coloquem o consumidor no centro das nossas decisões.
+Criamos ambientes onde todas as pessoas são incluídas, acolhidas e valorizadas. Nos empenhamos em ser uma Globo cada vez mais diversa, em representatividade e pensamento, aprendendo uns com os outros e estimulando a criatividade e inovação.
+Responsabilidades e atribuições
+O Hub Digital faz parte da nossa área de Estratégia e Tecnologia, tendo papel de destaque na nossa transformação em uma empresa media tech e D2C. Aqui cuidamos da gestão de dados e do desenvolvimento dos nossos produtos digitais como Globoplay, Globo.com, família G (G1, Ge, Gshow) e Cartola, visando a melhor experiência de consumo, interação e relacionamento com os nossos usuários.
+Trabalhamos com uma variedade de tecnologias e linguagens para atingir nossos objetivos, além de estabelecermos uma relação contínua e crescente de compartilhamento de soluções com a comunidade de tecnologia!
+﻿A inscrição em nosso banco de talentos não garante a contratação, pois ela dependerá da disponibilidade de vagas e avaliação de currículos e requisitos de cada uma das oportunidades.
+Sobre Big Data & AI na Globo:
+Nossa área de Big Data & AI é um dos maiores cases de Big Data no Brasil. Pelos nossos produtos passam mais de 100 milhões de usuários únicos e são produzidos centenas de milhares de conteúdos novos todos os meses. Se você gosta de gerar impacto positivo na vida de milhões de usuários essa vaga é pra você!
+Nesta vaga, você ira desenvolver modelos de dados definidos, que unem grandes volumes de dados de toda a organização, trabalhando em lógicas de transformação de dados para converter dados brutos em modelos que atendam às necessidades dos usuários.
+Como será seu dia a dia:
+Colaborar com uma equipe multidisciplinar onde sua expertise em análise e modelos de inteligência artificial ajudará a extrair informações de todas as nossas fontes de dados;
+Propor ideias para soluções eficazes e criativas, tanto no ponto de vista técnico quanto de negócio, a diversos desafios da área e da empresa;
+Interagir com várias áreas estratégicas da área e da empresa para entender e participar da tomada de decisões;
+Trabalhar no desenvolvimento de soluções e produtos inovadores envolvendo grandes volumes de dados e aprendizado de máquina para atender nossos clientes e anunciantes;
+Impactar positivamente a vida de milhares de pessoas que consomem os conteúdos da Globo diariamente.
+
+Requisitos e qualificações
+Do que você precisa:
+Experiência em Python e bibliotecas para análise de dados e modelagem (Scikit-Learn, Pandas, Numpy);
+Vivência com técnicas tradicionais usadas em Ciência de Dados (classificação, regressão, clustering, testes A/B);
+Bancos de dados relacionais (SQL é obrigatório);
+Conhecimento Cloud Computing (GCP; AWS) e Ferramentas de Versionamento (Git).
+Superior Completo ou em fase de conclusão em TI, Estatística, Matemática, ou áreas de exatas.
+﻿Conhecimentos que te destacam:
++ 2 anos de experiência em ciência de dados, com análises estatísticas e modelos voltados para segmentação ou propensão de clientes ou modelos afins (previsão, otimização de portifólio, etc);
+Ter ou estar cursando mestrado em Estatística ou Computação;
+Conhecimento de plataformas de fluxos de dados (Airflow, Azkaban, etc) e ETL/ELT;
+Vivência com ferramentas e ecossistema de Big Data (Spark, família Hadoop, etc) e Bibliotecas Pytorch e Tensorflow;
+Inglês intermediário (escrita, leitura e conversação).
+
+Informações adicionais
+Por que vir para Globo:
+Vem e vamos criar histórias e tecnologias juntos.
+Na Globo, o encontro de histórias com tecnologia move um time diverso e apaixonado por inovação.
+A gente tem a chance de aproximar os brasileiros, criando novas formas de se conectar com eles.
+Aqui, cada um faz a transformação acontecer.
+Nossos processos seletivos estão acontecendo de forma 100% remota e nós encorajamos inscrições de qualquer lugar do Brasil e do mundo. #vempraglobo
+Seguindo o compromisso de contribuir para um ambiente seguro para nossas pessoas, informamos que ter o esquema completo vacinação contra a Covid-19 é uma condição obrigatória para o trabalho na Globo, presencial ou a distância, e que o comprovante deverá ser apresentado como pré-requisito para
+a contratação.
+Quer saber mais sobre como é trabalhar na Globo? Vem acompanhar nosso dia a dia, desafios e conquistas nas nossas redes:
+https://www.linkedin.com/company/globo
+https://www.instagram.com/vempraglobo
+https://www.youtube.com/c/VemPraGlobo/
+Os seus dados pessoais serão utilizados para fins de seleção de candidatos para preenchimento das vagas abertas na Globo. Os dados pessoais coletados durante o processo seletivo dos candidatos que não forem admitidos neste momento poderão ser mantidos nos bancos de dados para consideração em futuros processos seletivos. Todos os dados coletados serão tratados segundo rígidos padrões de segurança da informação e em total respeito às leis de privacidade aplicáveis, incluindo a Lei 13.709/18, e nos termos de nossa política de privacidade, disponível no link: https://vempraglobo.g.globo/files/politica_de_privacidade.pdf
+Ao prosseguir você está ciente e de acordo para realização de sua candidatura nestes termos.
+A Globo é feita de gente que quer fazer diferente, fazer junto, fazer o futuro. Gente espalhada por todo o país (e mundo!) trabalhando com conteúdo, notícias, negócios, tecnologia, tudo isso com brasilidade e talento de sobra.
+Canais na TV aberta e por assinatura, produtos digitais como Globoplay, Cartola, G1, Ge, Gshow e outros serviços estão reunidos no mesmo lugar.
+Na Globo, o encontro de histórias com tecnologia move um time diverso e apaixonado por inovação.
+A gente tem a chance de aproximar os brasileiros, criando novas formas de se conectar com eles.
+Aqui, cada um faz a transformação acontecer.
+Quer fazer parte dessa transformação também?
+#VemPraGlobo ;)",4.2
+SMI ENGENHARIA E AUTOMACAO INDUSTRIAL LTDA.,jr,Santo André,1,"https://www.glassdoor.com.br/job-listing/cientista-de-dados-júnior-smi-engenharia-smi-engenharia-e-automacao-industrial-ltda-JV_IC2477906_KO0,40_KE41,83.htm?jl=1009016713216",não encontrado.,10.0
+VIACERTA Banking,Não Especificado no título,Trabalho remoto,19,"https://www.glassdoor.com.br/job-listing/analista-de-dados-viacerta-banking-JV_KO0,17_KE18,34.htm?jl=1008986320286",não encontrado.,10.0
+Nativ RH,sr,Nova Lima,15,"https://www.glassdoor.com.br/job-listing/analista-de-dados-sênior-nativ-rh-JV_IC2440397_KO0,24_KE25,33.htm?jl=1008991715437","Empresa de Sites de Apostas On-Line, contrata Analista de Dados Pleno para atuar em Vila da Serra, Nova Lima - MG. Interessados devem enviar currículo para e mail fabio@nativrh.com.brcom a sigla BULANVE no campo ‘assunto’.Atribuições da vaga:Esse não é um cargo para o ‘front’ da venda e sim para a análise numérica dos dados de todo o processo do setor comercial. Buscamos profissional analítico e com familiaridade nas demandas abaixo:Análise estratégica de dados do comercial, indicadores e comportamento do cliente.Irá atuar em projetos de implementações de operações de vendas para nossos clientes.Documentação e elaboração de relatórios.Compreender, desenvolver e otimizar processos de vendas de ponta a ponta.Ser orientado a melhorar a eficiência e experiência da jornada de vendas.Interface com ferramentas de CRM.Fornecer treinamento e suporte às equipes de vendas para garantir a execução das estratégias definidas no projeto.Colaborar com equipes internas e do cliente para garantir a execução integrada das estratégias.Coletar feedback das equipes de vendas e dos clientes para fazer ajustes nos processos conforme necessário.Requisitos:Boa experiência com análise de dados e indicadores. Ser uma pessoa ""data driven"" é parte importante da nossa cultura.Excel AvançadoFerramenta de Power BICapacidade de documentar e comunicar processos de maneira clara e concisa.Gerenciamento e qualificação de leads.Habilidades de comunicação interpessoal e empatia.Será um diferencial:Experiência em Sales Ops em diferentes segmentos.Importante grande conhecimento em Excel.Familiaridade com ferramentas de CRM (HubSpot, Pipefy, Pipedrive, outros).Desejável automação de marketing.Formação na área de exatas, como engenharias, adm e áreas correlatas.Conhecimento em metodologia de vendas estruturadas (Ex.: receita previsível)Preferência por CNH ativa.Formato de Contratação PJ com salário fixo de R$ 4.500,00 mais Comissionamento e Ajuda de Custos. Atuar de Segunda a Sexta-feira das 9:00 as 18:00.Tipo de vaga: Autônomo / PJSalário: a partir de R$4.500,00 por mêsHorário de trabalho:Turno de 8 horas",10.0
+Globo,sr,Trabalho remoto,12,"https://www.glassdoor.com.br/job-listing/cientista-de-dados-sênior-chatbot-data-ai-globo-JV_KO0,41_KE42,47.htm?jl=1008996878856",não encontrado.,4.2
+Brivia,Não Especificado no título,Trabalho remoto,30,"https://www.glassdoor.com.br/job-listing/analista-de-dados-brivia-JV_KO0,17_KE18,24.htm?jl=1007123009107","Vaga para nosso BANCO DE TALENTOS
+Somos inquietos, somos desbravadores e estamos em constante transformação.
+Por isso, estamos na busca constante de crescimentos do nosso time com profissionais inovadores, que desafiam os limites e estejam preparados para embarcar em uma cultura totalmente nômade.
+SOMOS NÔMADES, NOSSAS VAGAS SÃO PARA QUALQUER LUGAR!
+Seja qual for o seu gênero, orientação sexual, idade, raça, etnia, crença ou deficiência, todos são bem-vindos no nosso time.
+Responsabilidades e atribuições
+O analista de dados é responsável por realizar a verificação de cenários e o diagnósticos de marcas nos canais digitais a partir de dados e do monitoramento. É responsável por traduzir os dados em análises, fatos e insights que servem de insumos e orientação para os demais times envolvidos. Identifica padrões de comportamento, necessidades e expectativas, percepções de públicos, identificação de oportunidades de comunicação e de negócio.
+Requisitos e qualificações
+
+Ter habilidades analíticas;
+Tenha conhecimento no pacote office;
+Graduado em Comunicação Social, Publicidade ou Administração;
+Domínio de redes sociais e canais digitais;
+Conhecimento em softwares de métricas;
+Domínio de Google Analytics;
+Conhecimento em ferramentas de monitoramento;
+Muita vontade para desbravar.
+Diferenciais:
+Conhecimento em Data Studio;
+Conhecimento em Google Tag Manager.
+
+Informações adicionais
+Os desbravadores tem:
+Horário flexível, aqui você é responsável por se organizar;
+Cultura ágil, aqui todos os desbravadores utilizam metodologias ágeis no dia a dia;
+No dress code, seja 100% você;
+Vale transporte;
+Vale refeição ou alimentação FLEX;
+Gympass;
+Plano odontológico Bradesco;
+Plano de saúde Bradesco;
+Seguro de vida Metlife;
+Bem estar psicológico gratuito;
+Brivia Academy, treinamentos para aperfeiçoamento;
+Bônus salarial;
+Programa de desenvolvimento de idiomas;
+Parceria e descontos em Universidades;
+Associação e descontos na ABRADI;
+E o melhor de todos: trabalhe de onde você quiser, somos nômades e estamos 100% em home office!
+Estamos entre as melhores agências para se trabalhar no Brasil!
+Na Brivia, você precisa estar com a mente e o passaporte sempre abertos. Afinal, nós vamos onde nossos clientes, seus problemas e nossas soluções nos levam.
+Sim, temos sedes no Brasil, na America Latina e na Europa, mas acreditamos no trabalho remoto. Temos b.a.s.e em 4 estados brasileiros, mas com profissionais espalhados por mais de 10 estados. Possuímos um escritório estratégico em Lisboa, Portugal, além de escritórios no Chile, Argentina e Colômbia. Mas não temos endereço fixo. Acreditamos no trabalho remoto e na autonomia profissional para tomar decisões em busca de novos resultados. Estamos em todos os lugares!
+Buscamos sempre ter entre nós pessoas realizadas e valorizadas e nos esforçamos todos os dias para fazer da Brivia um lugar próspero e rico em possibilidades.
+Se identifica? Vem pra Brivia, vem desbravar o Digital Branding com a gente and be nômade!",4.0
+Quality Digital,pl,Trabalho remoto,8,"https://www.glassdoor.com.br/job-listing/6077613-cientista-de-dados-pleno-quality-digital-JV_KO0,32_KE33,48.htm?jl=1009002136978","Nós somos a Quality Digital! Saiba mais sobre a gente:
+Uma frase que nos define - Somos especialistas em soluções de TI e apaixonados por inovação!
+Ao infinito e além - Somos #semfronteiras. Nosso time está espalhado pelo Brasil e pelo mundo
+Nossa cultura - Mesmo distantes, estamos juntos Temos cerimônias para estarmos mais próximos, compartilhar conhecimento e ficar por dentro das novidades da nossa empresa!
+Somos diversos - Um dos nossos compromissos é fazer da companhia um ambiente cada vez mais diverso, inclusivo e respeitoso, valorizando e promovendo a pluralidade. Por isso, aqui temos espaço para todas as pessoas, independente de raça, gênero, idade, orientação sexual, crença religiosa ou deficiência.
+Nosso objetivo - Potencializar os negócios dos nossos clientes através de soluções inovadoras e sustentáveis. Topa vir com a gente nessa?
+
+
+Responsabilidades e atribuições
+Responsabilidades principais:
+
+Criação de Modelos e Analises para o Time de CRM
+
+Requisitos e qualificações
+Requisitos:
+
+Conhecimento avançado de SQL e Python
+Conhecimento de Estatística
+Vivência com CRM
+
+Informações adicionais
+O que você vai encontrar aqui:
+
+Um ambiente propício para aprendizado e crescimento profissional
+Avaliação de desempenho e feedbacks, visando o desenvolvimento contínuo das nossas pessoas
+Vale alimentação e/ou refeição para suas compras de mercado e refeições
+Assistência médica e odontológica para que você e sua família estejam com a saúde em dia
+Convênio com farmácias para descontos em medicamentos
+Auxílio creche de acordo com política vigente
+Convênio academia para te incentivar a se exercitar
+Parceria com o SESC para programações variadas de cultura e lazer
+Parcerias para seus estudos de idiomas, tecnologia e plataforma de cursos
+Empréstimo consignado com taxas atrativas + programa de educação financeira
+Universidade Corporativa e trilhas de conhecimento com conteúdos diversos de tecnologia, soft skills, tendências de mercado e muito mais
+Programa de Indicações com possibilidade de prêmios e bonificações
+Seguro de vida coletivo
+Aqui, não faltam histórias para contar!
+Então, que tal pegar sua xícara de café, chá, suco ou sua bebida preferida e saber mais sobre nós, se encantar, conferir nossas vagas e fazer parte desse time em constante crescimento?",10.0
+Faculdade Pernambucana de Saúde - FPS,Não Especificado no título,Recife,1,"https://www.glassdoor.com.br/job-listing/analista-de-dados-paeg-faculdade-pernambucana-de-saúde-fps-JV_IC2504041_KO0,22_KE23,58.htm?jl=1009016706103",não encontrado.,10.0
+Itix,Não Especificado no título,Trabalho remoto,30,"https://www.glassdoor.com.br/job-listing/analista-de-dados-itix-JV_KO0,17_KE18,22.htm?jl=1008965502549",não encontrado.,4.5
+Globo,jr,Rio de Janeiro,30,"https://www.glassdoor.com.br/job-listing/cientista-de-dados-júnior-soluções-para-o-consumidor-e-inteligência-globo-JV_IC2402386_KO0,67_KE68,73.htm?jl=1008944730770",não encontrado.,4.2
+Central Ailos,Não Especificado no título,Trabalho remoto,5,"https://www.glassdoor.com.br/job-listing/analista-de-dados-i-central-ailos-JV_KO0,19_KE20,33.htm?jl=1009009109965",não encontrado.,4.4
+Americanas S.A.,jr,Trabalho remoto,30,"https://www.glassdoor.com.br/job-listing/analista-de-dados-júnior-inteligência-de-riscos-americanas-sa-JV_KO0,47_KE48,61.htm?jl=1008952582188","Conhecendo um pouco mais sobre a Americanas S.A.:
+A Americanas S.A. é resultado da fusão entre as Lojas Americanas e a B2W, e nosso propósito é somar o que o mundo tem de bom para melhorar a vida das pessoas. Somos muito mais do que uma empresa de varejo: uma plataforma de inovação tecnológica com infinitas possibilidades - físicas e digitais - que tem as pessoas no centro de tudo!
+Dona das maiores e mais queridas marcas da Internet (Americanas.com, Submarino, Shoptime), com uma operação de marketplace, logística e fintech unidas, mais de 1700 mil lojas físicas em todo Brasil, somos líderes na América Latina!
+Somos um universo em expansão. E se você é dono do negócio, obcecado por resultados e respira inovação, vem fazer parte dessa nova jornada!
+Informações sobre a área e os desafios:
+﻿O time de Inteligência de Riscos é responsável por promover o fortalecimento dos mecanismos da gestão de riscos e compliance em todo o negócio de forma automatizada e contínua.
+Responsabilidades e atribuições
+Nesse time, você terá a oportunidade de:
+
+Analisar, interpretar e obter insights dos dados para as gerências de Risco e Compliance, afim de fornecer informações acessíveis, assertivas e que ajudem os times de negócios a tomar decisões embasadas e de maneira mais rápida;
+Disseminar cultura data-driven.
+
+Requisitos e qualificações
+O que esperamos de você para essa vaga:
+
+Conhecimento em Python;
+Conhecimento em SQL
+Conhecimento estatístico.
+Será um diferencial, caso você conheça:
+
+BigQuery;
+Ferramenta de visualização (Power BI, Looker ou Tableau).
+OBS: Nossos processos seletivos estão sendo conduzidos totalmente online, portanto, fique de olho nos emails e no spam.
+
+
+Informações adicionais
+Nossos benefícios:
+
+Somos adeptos ao regime e benefícios CLT, oferecemos: Vale Refeição;
+Plano de saúde Bradesco;
+Plano odontológico Amil;
+Seguro de vida;
+Fazemos nossa proposta salarial de acordo com o nosso plano de cargos e salários, sua pretensão salarial e avaliação técnica;
+Descontos em nossas lojas físicas e site de compras do Submarino, Americanas e Shoptime, após o período de experiência;
+Meetups e eventos com muita troca de conhecimento e uma plataforma interna com diversos cursos e treinamentos;
+Allya: app que oferece descontos em quase 30 mil estabelecimentos por todo Brasil, ex: farmácia, restaurante, salão, academia, etc;
+Ambiente colaborativo: perfeito pra ensinar e aprender muito.
+Local de Trabalho: Rio de Janeiro
+A Americanas S.A. já nasceu gigante e com pessoas no centro de tudo. Nós temos: + de 40 mil associados, 100% dos CEPs atendidos, milhões de parceiros entre: fornecedores, sellers e merchants e 3.500 lojas em todo o país.
+Sobre a nossa cultura:
+Temos uma forte cultura de dono, que proporciona bastante autonomia no dia a dia, buscamos constantemente trazer inovação para todas as áreas da companhia, utilizando ferramentas de ponta para melhorar continuamente a qualidade das nossas entregas e produtos. Além disso, incentivamos muito o trabalho em equipe e a troca de ideias, pois assim, crescemos juntos e nos desenvolvemos enquanto profissionais e pessoas.
+Diversidade e Inclusão:
+Acreditamos que a diversidade contribui com diferentes visões de mundo e enriquece o trabalho. Como companhia, temos o compromisso de promover um ambiente cada vez mais diverso, inclusivo e acolhedor. Estamos construindo a cada dia uma cultura mais equânime, com base no respeito e valorização das diferenças, encorajando as pessoas a serem quem elas são, independente de gênero, etnia, raça, orientação sexual, religião ou deficiência. Todas as nossas vagas são trabalhadas com base nesse princípio.
+SomarCast:
+Para ouvir quando e onde você quiser, o SomarCast é o podcast da Americanas S.A. com Nina Silva, indicada pela Forbes como uma das 20 mulheres mais poderosas do Brasil em 2019 e sócio-fundadora do Black Money Project, como host e convidados de dentro e fora da companhia. Ouça já no Spotify e demais plataformas de podcast.",3.8
+GOL Linhas Aéreas,jr,São Paulo,6,"https://www.glassdoor.com.br/job-listing/cientista-de-dados-jr-gol-linhas-aéreas-JV_IC2479061_KO0,21_KE22,39.htm?jl=1009005746820",não encontrado.,4.1
+Montreal & Tecnologia & Inovação,Não Especificado no título,Trabalho remoto,30,"https://www.glassdoor.com.br/job-listing/cientista-de-dados-regional-são-paulo-montreal-tecnologia-inovação-JV_KO0,37_KE38,66.htm?jl=1008609996786",não encontrado.,10.0
+GOVERNANÇABRASIL - GOVBR,jr,Trabalho remoto,27,"https://www.glassdoor.com.br/job-listing/analista-de-dados-jr-governançabrasil-govbr-JV_KO0,20_KE21,43.htm?jl=1008971674289",não encontrado.,10.0
+Netvagas,jr,Trabalho remoto,3,"https://www.glassdoor.com.br/job-listing/cientista-de-dados-jr-netvagas-JV_KO0,21_KE22,30.htm?jl=1009010458443","Descrição:
+Ensino superior completo em Engenharia, Estatística, Matemática, Análise de Sistemas ou áreas correlatas;
+Experiência em áreas correlatas (MIS, BI, planejamento financeiro, controladoria);
+Experiência em desenvolver modelos estatísticos, aplicando técnicas de machine learning, regressão, clusterização, ensemble methods;
+Python nível intermediário em bibliotecas de manipulação de dados e machine learning;
+Conhecimentos em serviços cloud (AWS, RDS, Jupyter notebook);
+Excel intermediário e SQL (Intermediário);
+Diferencial: conhecimentos em PySpark.
+Construir, aprimorar e acompanhar modelos preditivos para diversas frentes do negócio, gerando insumos para as políticas de crédito e cobrança;
+Lidar com análise de dados em diferentes níveis de granularidade e conhecimento, efetuando cruzamentos com bancos de dados on-cloud, dados estruturados e não estruturados, fontes externas de bureaus de dados e processamento de bigdata;
+Apresentar o resultado de análises, modelos e status de cronograma em reuniões de projeto/comitê;
+Validar e monitorar todos os modelos em produção, garantindo a performance dos modelos dentro dos parâmetros pré-estabelecidos e fazer os ajustes e retreinos sempre que necessário;
+Ser proativo em apresentar novas sugestões de tecnologia e abordagens no desenvolvimento de modelos preditivos;",3.0
+Globo,sr,Trabalho remoto,30,"https://www.glassdoor.com.br/job-listing/cientista-de-dados-sênior-data-ai-globo-JV_KO0,33_KE34,39.htm?jl=1008898131618",não encontrado.,4.2
+Seazone,Não Especificado no título,Trabalho remoto,19,"https://www.glassdoor.com.br/job-listing/analista-de-dados-seazone-JV_KO0,17_KE18,25.htm?jl=1008984438968","Como será um dia de trabalho típico na Seazone?
+Fazer parte dessa equipe significa que você somará ao nosso propósito de trazer inovação e tecnologia para o mercado de aluguel por temporada visando maximizar a rentabilidade para clientes proprietários e investidores, além de garantir uma excelente experiência aos hóspedes que escolhem os imóveis Seazone. Desse modo, trabalhar conosco é se tornar parte essencial do crescimento exponencial do nosso modelo de negócio, somando aos nossos títulos de maior parceira nacional do Airbnb e uma das 20 Top Startups do Linkedin.
+O que estamos procurando exatamente?
+De modo geral, procuramos pessoas que acreditem em nossa missão, visão e valores enquanto organização, além de se identificarem com o setor de Revenue Management, pertencente ao nosso time de Tecnologia, que hoje é responsável por precificar nossos imóveis e permitir a escalabilidade dos nossos serviços sem que haja perda de qualidade do que entregamos aos nossos clientes. Mas atenção: embora esta posição seja para compor nosso time de Tech, ela não se relaciona diretamente com atividades como programação e desenvolvimento web, mas sim com planilhas e análise de dados visando tornar nossas estratégias de precificação cada vez mais assertivas. Assim, para seguir crescendo com nosso time que transforma sonhos em objetivos todos os dias, buscamos pessoas que gostem de aprender, bem como que tenham iniciativa, autonomia e sangue no olho para fazer o melhor por nossos clientes.
+Responsabilidades e atribuições
+
+Atuar em atividades relacionadas à precificação de imóveis na Seazone;
+Atuar em KPIs relacionados aos nossos canais de venda;
+Atuar na análise de imóveis externos à empresa.﻿
+
+Requisitos e qualificações
+
+Excel intermediário para realizar o mapeamento e análise dos dados;
+Boa capacidade para lidar com processos;
+Comunicação dinâmica e assertiva para lidar com nosso time interno e clientes externos;
+Pensamento analítico para reunir informações de diferentes fontes, visualizar o todo e solucionar problemas;
+Proatividade e autonomia para identificar e sugerir possibilidades de melhoria nos processos do setor;
+Flexibilidade e adaptabilidade para lidar com o contexto dinâmico de uma startup em ascensão.
+Diferenciais
+Experiência prévia com precificação ou análise de imóveis é um grande diferencial.
+
+Informações adicionais
+O que oferecemos
+Parceria com a Gympass;
+Parceria com a CCLI idiomas;
+Parceria com a ACATE - cursos de graduação e pós graduação;
+Parceria com a Conexa Saúde e Psicologia Viva - Telemedicina 24h;
+Avaliações semestrais com a perspectiva de crescimento;
+Bonificação trimestral a partir do início do próximo trimestre;
+Cultura de Feedback;
+Day-off/ano;
+Kit de boas vindas;
+Descontos em hospedagens pelo nosso site de reservas.
+Sobre a contratação
+Contrato no modelo PJ;
+Trabalho Remoto;
+Descanso remunerado de 15 dias a cada 6 meses.
+Somos uma startup considerada uma das quatro maiores empresas do ramo de aluguel por temporada no Brasil. Com tecnologia e experiência de mercado, buscamos rentabilizar imóveis na hora da locação por temporada.
+Nossa Missão
+Queremos transformar o mercado imobiliário de aluguel por temporada, com a automatização de processos por meio da tecnologia. Nosso trabalho é pautado em oferecer a melhor experiência ao hóspede e maximizar os retornos do proprietário/investidor, com soluções inovadoras.
+Nossa Visão
+﻿Com uma gestão inteligente e integrada, desenvolvemos nossas atividades com o objetivo de ser a maior e o melhor grupo de tecnologia no mercado imobiliário de aluguel por temporada digital do Brasil.",4.1
+Sólides Tecnologia,pl,Belo Horizonte,1,"https://www.glassdoor.com.br/job-listing/analista-de-dados-pleno-sólides-tecnologia-JV_IC2514646_KO0,23_KE24,42.htm?jl=1009016704524","Somos a Sólides, a maior HRTech do Brasil para PME's, única plataforma all in one para RH's! Aqui somos especialistas em Pessoas, nos importamos de verdade com o ser humano, e cada um é livre para SER.Nós multiplicamos o saber e deixamos nossa marca em tudo o que fazemos, isso porque somos Corajosos para ser Diferentes.
+ Não existe desafio grande demais que nosso time não encare porque somos Fortes para Alcançar Resultados Extraordinários.Respiramos a excelência no atendimento, somos Apaixonados pelos clientes.
+
+Temos a Plataforma MAIS completa de Gestão de Pessoas com base Comportamental e People Analytics do Brasil. Oferecemos um ambiente descontraído, diverso, recheado de treinamento e desenvolvimento, profissional e pessoal!Cuidamos muito dos nossos colaboradores e por isso temos reconhecimentos muito legais. Entre eles o GPTW, Top of Mind RH 2021, Top 10 das '100 Startups Mais Atraentes de 2020', e vários outros. A Sólides transforma a Gestão de Pessoas em mais de 10 mil empresas em todo o Brasil, temos mais de 3 milhões de vidas ativas aqui.
+
+Temos um time muito unido em nossa missão de transformar as empresas por meio das pessoas. Quer ingressar em uma jornada de evolução, crescimento, execução intensa e foco no resultado? Vem que a Sólides é o seu lugar.
+ Nossa missão é transformar as empresas por meio das pessoas, e procuramos um Analista de Dados Pleno para nos ajudar nesta missão realizando analises dados quantitativos e organizar dados, transformando-os em informações relevantes que embasarão o processo de tomada de decisão.
+Suas principais atividades serão:
+Extrair bases de dados e padronizar informações, organizando o banco de dados.
+Construir queries e modelos de dados para apresentações e relatórios dos estudos realizados em Power BI e outras ferramentas de BI.
+Realizar levantamento de requisitos e mapeamento de processos para organização dos dados;
+Participar de reuniões gerenciais para apresentação de relatórios.
+Executar a pesquisa de satisfação de atendimento das demandas, bem como mineração, documentação e definições de dados;
+Ser responsável por propor e implementar ferramentas para o uso interno da área de dados, visando aumentar a maturidade e agilidade de desenvolvimento do time.
+Ajudar no gerenciamento de projetos internos do time de Análise de Dados.
+Oferecer suporte às demandas de extração de dados e visualizações de dados.
+Para esta posição, esperamos que você tenha:
+Experiência com bancos de dados relacionais;
+Domínio da linguagem SQL;
+Dominio de alguma ferramenta de BI (Power BI, Data Studio, etc);
+Conhecimento em ferramentas de extração de dados;
+Conhecimeno de Python;
+Boas práticas em documentação e analise de requisitos;
+Será um diferencial se você tiver:
+Versionamento de código (git);
+Conhecimento em cloud AWS (Athena, S3, RDS);
+Conhecimento em metodologias ágeis;
+Experiência em extrações de dados de API.
+E se você ainda tem alguma dúvida se a Sólides é um bom lugar para se trabalhar, olha só quais são os benefícios de ser um(a) Solidiano(a):
+Vale Alimentação/Vale Refeição no valor de R$ 40,00/dia útil (Cartão Sólides Benefícios);
+Vale transporte ou Vale combustível;
+Plano de Saúde da Unimed no formato de coparticipação, sem mensalidade;
+Plano Odontológico OdontoPrev, mensalidade fixa de R$17,41;
+Terapia: Parceria com Psicologia Viva - 3 sessões gratuitas por mês;
+Cursos Online que vão da Gastronomia a Pós Graduação (Qualifica);
+Acesso a todos os cursos da Universidade Sólides;
+Auxílio Home Office no valor de R$60,00 (cartão)
+Day off no mês do aniversário;
+Gympass;
+Dress Code Super Flexível.
+E aí, topa?!
+Vem ser um Solidiano! Tem um time incrível te esperando =)",3.5
+Banco PAN,jr,São Paulo,9,"https://www.glassdoor.com.br/job-listing/cientista-de-dados-jr-banco-pan-JV_IC2479061_KO0,21_KE22,31.htm?jl=1008999910431","Quem é o PAN?
+
+Somos uma das principais instituições financeiras do Brasil e queremos Elevar sua carreira junto com você!
+
+Nosso propósito é promover uma vida financeira inteligente para as pessoas.
+
+A Cultura PAN nos une e nos representa por meio dos pilares: Trabalho em Equipe, Ousadia Empreendedora e Protagonismo com Profundidade
+
+Desafios da Posição
+
+ Realização de soluções com dados para direcionar a estratégias de crédito dos produtos da área
+ Desenvolver analises profundas e autorais, buscando otimizar o resultado dos produtos
+ Criação de monitoramentos para analisar e reportar os principais indicadores da concessão de crédito e da carteira dos produtos
+ Interação com diversas áreas do banco a fim de avaliar em conjunto as melhores estratégias para atingir os objetivos das atividades mencionadas
+
+
+O que esperamos de você:
+
+Cursando ensino superior, ou completo em ciência da computação e áreas relacionadas
+ Experiência com Python e SQL
+Gostar de desenvolver soluções utilizando dados para direcionar a estratégia do produto
+Forte capacidade analítica e alto nível de criticidade
+Pensamento estruturado para resolução de problemas, fundamentado com dados relevantes e confiáveis
+Disponibilidade para atuar em modelo hibrido considerando o escritório localizado na AV. Paulista, São Paulo - SP.
+
+E quais benefícios encontrará:
+
+Bônus/PLR;
+Vale Alimentação;
+Vale Refeição;
+Assistência Médica;
+Assistência Odontológica;
+Auxílio creche;
+Psicoterapia;
+13º de Vale Alimentação;
+Day Off no mês do seu aniversário;
+Programas de Parcerias;
+Gympass e Totalpass
+Seguro de vida e outros.
+
+Assim como todas as nossas vagas, essa também é destinada à diversidade e inclusão. Independentemente de qualquer fator, perfil ou característica, vem pro PAN!
+
+Para conhecer mais sobre nossos benefícios e cultura, acesse o Trabalhe Conosco:
+https://www.bancopan.com.br/trabalhe-conosco/
+
+Acesse também nossa página na Glassdoor e veja nossas avaliações:
+https://www.glassdoor.com.br/Vis%C3%A3o-geral/Trabalhar-na-Banco-PAN-EI_IE1184444.13,22.ht",4.2
+Zup Innovation,Não Especificado no título,Trabalho remoto,14,"https://www.glassdoor.com.br/job-listing/pessoa-cientista-de-dados-zup-innovation-JV_KO0,25_KE26,40.htm?jl=1008993116922","Por que ser zupper?
+
+Vamos direto ao ponto: o que oferecemos é um ambiente de crescimento exponencial. Mais do que palavras bonitas, isso significa que oferecemos todas as oportunidades para que você possa protagonizar sua evolução e todo o suporte necessário.
+
+Como protagonismo sem apoio não gera desenvolvimento acelerado, além de oportunidades, cada zupper tem um plano de desenvolvimento de carreira, acompanhamento próximo por uma pessoa do time de People e acesso a uma plataforma proprietária que tangibiliza o sentimento de progresso.
+
+E por que fazemos tudo isso?
+
+Porque acreditamos que somente um ambiente de crescimento exponencial vai nos fazer chegar aonde queremos: usar a tecnologia para transformar a vida de pessoas, potencializar talentos desperdiçados por falta de acesso e posicionar regiões desprivilegiadas como pólos de tecnologia de qualidade.
+
+Ah, e não podemos esquecer: na Zup acreditamos na #Liberdade! Com isso, zuppers podem trabalhar de onde quiserem, seja home office, em nossos escritórios ou em um modelo híbrido
+
+O que você fará por aqui
+
+Utilizar dados e domínios de conhecimento para resolver problemas de negócio e gerar valor quantificável para corporação;
+Trabalhar clarificando e estruturando os problemas a serem resolvidos, as etapas e atividades sendo desempenhadas na coleta de dados, no desenvolvimento e construção de pipelines, modelos analíticos e de soluções adequadas no contexto de saúde;
+Garantir a qualidade técnica das soluções em conformidade com os requisitos;
+Aplicar boas práticas de governança/segurança/criptografia para evitar possíveis vulnerabilidades;
+Ajudar na documentação de projetos e de iniciativas assim como na definição de seus requisitos funcionais e não funcionais;
+Participar ativamente na implementação de soluções utilizando DevOps, DataOps e MLOps;
+Participar ativamente nas etapas de codificação com SQL e Python;
+Ajudar na definição e implementação de planos e de testes nas soluções de dados;
+Comunicar recomendações finais e apoiar a tomada de decisão.
+
+O que esperamos que você saiba
+
+Sólida experiência com codificação em uma das linguagens de script (Python, Pyspark, Spark-mllib, R);
+Experiência com pacotes como NumPy, SciPy, Pandas, Scikit-learn, Dplyr, Ggplot2;
+Vivência em projetos como engenheiro de dados ou de software ou como cientista de dados em um papel dentro do contexto de analytics utilizando plataforma AWS;
+Experiência entregando projetos usando melhores práticas de DevOps e DataOps através de pipeline de dados e esteiras de CI/CD;
+Domínio de gestão de código com Git e estratégias de branch/merge;
+Experiência no desenvolvimento de queries avançadas com SQL, em análise e em melhoria de performance;
+Implementação de arquiteturas de dados robustas e escaláveis em Cloud;
+Implementação e consumo de APIs para integração entre sistemas e plataformas públicas e/ou privadas de dados através de requisições REST e/ou SOAP;
+Experiência com modelagem e operações em bancos relacionais como Oracle, SQL Server, Postgres e, noSQL, como MongoDB, CosmosDB, DynamoDB etc.
+
+O que seria muito legal se você soubesse
+
+Possuir experiência anterior com arquiteturas de microsserviços e event-driven;
+Experiência no desenvolvimento de aplicações com serviços de mensageria Event-Hubs, Service bus, Kafka, Amazon SQS, Amazon SNS e/ou Amazon MQ;
+Desenvolvimento de soluções de dados em ambientes cloud(preferencialmente em AWS), com serverless, docker, kubernets;
+Conhecimento sobre LGPD e/ou outras legislações sobre proteção e segurança de dados como GDPR, HIPAA etc.
+
+O que te tornaria Especialista
+
+Caso você tenha cinco anos de experiência em desenvolvimento utilizando as tecnologias acima, provavelmente você se encaixa como Especialista aqui na Zup.
+
+O que te oferecemos
+
+Aqui não é só a sua carreira que importa, queremos que você tenha saúde e bem estar físico e mental para a melhor jornada de experiência profissional e pessoal da sua vida.
+
+Carreira acelerada
+
+Trabalhe de onde quiser
+Horários flexíveis
+Auxílio Educação para cursos
+Programas internos de educação e aceleração
+Plataforma de cursos gratuitos
+Webinars internos semanais
+Ferramenta própria e exclusiva de desenvolvimento de carreira
+Site interno de carreira
+Núcleo interno P&D
+Frameworks para liderança: treinamentos e ferramentas
+Feedbacks 1o1 semanais
+Guildas internas e outros grupos de estudo e interesse
+
+Saúde e Bem-estar
+
+Gympass
+Plano saúde
+Plano odontológico
+PrimeCare: assistência médica disponível 24 por 7
+Terapia online gratuita
+Meditação guiada
+Yoga conteúdos e práticas
+Alongamento
+Ginástica laboral
+CAZ – Central de Atendimento aos zuppers
+Licença maternidade de 180 dias
+Licença paternidade de 20 dias
+
+Conforto financeiro
+
+Vale Refeição e Alimentação
+Seguro de vida
+Vale transporte
+Subsídio para home office
+Auxílio creche
+Auxílio Plano telefônico
+Participação em Lucros e Resultado (PLR)
+Programa de indicação
+
+Have fun and relax
+
+Happy hours e festas com shows e atrações
+Chopp liberado*
+Vídeo-game*
+Salas temáticas*
+Refeitórios*
+Cozinhas equipadas*
+Áreas de descompressão*
+Lanches, snacks, frutas, chás e café*
+Dress Code livre*
+
+(para quem for aos escritórios)",4.2
+Data Lawyer,Não Especificado no título,Trabalho remoto,29,"https://www.glassdoor.com.br/job-listing/analista-de-dados-jurídicos-data-lawyer-JV_KO0,27_KE28,39.htm?jl=1008967843887","Sobre a Data Lawyer:
+Fundada em 2017, a Data Lawyer é uma das pioneiras no desenvolvimento de soluções tecnológicas para o setor jurídico a nível de Big Data. Atualmente, somos o maior player de Jurimetria do mercado e atendemos clientes em todo o território nacional, entre escritórios e departamentos jurídicos, que utilizam a nossa ferramenta para alavancar a performance e a capacidade preditiva no âmbito da Justiça Federal e Trabalhista.
+A advocacia orientada a dados já está consolidada tendo a Data Lawyer como a principal referência, não apenas pela qualidade e robustez de seus serviços, mas também pelo espírito inovador de seus profissionais - os mais “data driven” do Brasil! Seguiremos revolucionando a maneira como o setor jurídico interpreta e trabalha com dados, e você pode fazer parte disso!
+Missão da vaga:
+Mapear informações estruturadas e não-estruturadas dos sistemas processuais eletrônicos para padronização das informações;
+Solucionar dúvidas e pareceres jurídicos em consonância com as implementações técnicas;
+Anotar documentos para consumo em modelos de Processamento de Linguagem Natural;
+Validar dados e informações na plataforma de jurimetria;
+Analisar para verificação de inconsistências e pontos de melhoria;
+O que buscamos:
+Formação acadêmica em Direito;
+Experiência na área de análise dados jurídicos;
+Conhecimento básico de estatística descritiva e jurimetria;
+Bom raciocínio lógico;
+Proficiência com Excel e Google Sheets;
+Será um plus:
+Experiência com anotações para treinamento de modelos de Processamento de Linguagem Natural;
+Experiência em departamentos jurídicos ou escritórios de advocacial;
+Conhecimento de ElasticSearch ou OpenSearch;
+Respeitamos a pluralidade de identidades e trabalhamos para promover uma cultura inclusiva. Não fazemos distinção de raça, cor, religião, identidade de gênero, orientação sexual, nacionalidade, deficiência ou idade em nenhuma etapa do processo seletivo, reforçando nosso compromisso com a diversidade.
+Fundada em 2017, a Data Lawyer é uma das pioneiras no desenvolvimento de soluções tecnológicas para o setor jurídico a nível de Big Data. Atualmente, somos o maior player de Jurimetria do mercado e atendemos clientes em todo o território nacional, entre escritórios e departamentos jurídicos, que utilizam a nossa ferramenta para alavancar a performance e a capacidade preditiva no âmbito da Justiça Federal e Trabalhista.
+A advocacia orientada a dados já está consolidada tendo a Data Lawyer como a principal referência, não apenas pela qualidade e robustez de seus serviços, mas também pelo espírito inovador de seus profissionais - os mais “data driven” do Brasil! Seguiremos revolucionando a maneira como o setor jurídico interpreta e trabalha com dados, e você pode fazer parte disso!",10.0
+Netvagas,Não Especificado no título,Brasil,1,"https://www.glassdoor.com.br/job-listing/cientista-de-dados-estatística-netvagas-JV_KO0,30_KE31,39.htm?jl=1009013562791","Descrição:
+Superior completo ou em andamento em: Engenharia, Administração, Atuária, Matemática, Computação e correlatas ;
+Conhecimento de SQL; Linguagem Python ou R; Ferramentas de BI;
+Excel Avançado;
+Experiência com análise e extração de dados;
+Valorizamos se você tiver:
+Conhecimento em Tableau
+Experiência com Big Data
+Experiências em projetos avançados relacionados a Dados
+Atuar na construção de modelos de inteligência artificial;
+Participar de projetos estratégicos envolvendo outras áreas apoiando na construção de modelos e na metodologia;
+Modelar estudos estatísticos de precificação para produtos de seguros;
+Analisar dados: definir objetivos, estipular indicadores e métricas, coletar dados, interpretar e expor resultados;
+Aplicar conhecimentos técnicos em estudos pontuais;
+Criar insights e propor estudos diferenciados referente ao nosso setor;",3.0
+ISTPAY SERVICOS DE PAGAMENTOS E GESTAO FINANCEIRA LTDA,Não Especificado no título,Belo Horizonte,1,"https://www.glassdoor.com.br/job-listing/analista-de-dados-data-analyst-istpay-servicos-de-pagamentos-e-gestao-financeira-ltda-JV_IC2514646_KO0,30_KE31,85.htm?jl=1009016707118",não encontrado.,10.0
+Instituto Unibanco,Não Especificado no título,São Paulo,2,"https://www.glassdoor.com.br/job-listing/cientista-de-dados-instituto-unibanco-JV_IC2479061_KO0,18_KE19,37.htm?jl=1009012919253",não encontrado.,4.5
+Cooperativa Agropecuária do Alto Paranaíba,Não Especificado no título,São Gotardo,1,"https://www.glassdoor.com.br/job-listing/analista-de-dados-iii-cooperativa-agropecuária-do-alto-paranaíba-JV_IC2449781_KO0,21_KE22,64.htm?jl=1009016705548",não encontrado.,10.0
