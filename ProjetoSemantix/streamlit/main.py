@@ -37,7 +37,7 @@ Esses campos solares são dimensionados de acordo com a demanda de eletricidade 
 
 
 st.subheader("Inversores")
-imagem = Image.open("solar.png")
+imagem = Image.open("ProjetoSemantix/streamlit/solar.png")
 #imagem = Image.open("C:\\Users\\alcid\\GitHub\\Portfolio\\ProjetoSemantix\\streamlit\\solar.png")
 
 st.image(imagem, caption='Fonte: https://infinitysun.com.br/processo-geracao-energia-eletrica/', use_column_width=True, output_format='auto', width=None)
