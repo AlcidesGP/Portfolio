@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 st.set_page_config(page_title='Projeto Semantix', page_icon=':bar_chart:', layout='wide')
-imagem = Image.open("./img_sem.png")
+imagem = Image.open("img_sem.png")
 #imagem = Image.open("C:\\Users\\alcid\\GitHub\\Portfolio\\ProjetoSemantix\\streamlit\\img_sem.png")
 st.image(imagem)
 st.markdown("<h1 style='text-align: center; color: white;'>Sob o Sol dos Dados: Análise e Modelagem Preditiva na Produção Diária de Energia Solar</h1>", unsafe_allow_html=True)
@@ -37,7 +37,7 @@ Esses campos solares são dimensionados de acordo com a demanda de eletricidade 
 
 
 st.subheader("Inversores")
-imagem = Image.open("./solar.png")
+imagem = Image.open("solar.png")
 #imagem = Image.open("C:\\Users\\alcid\\GitHub\\Portfolio\\ProjetoSemantix\\streamlit\\solar.png")
 
 st.image(imagem, caption='Fonte: https://infinitysun.com.br/processo-geracao-energia-eletrica/', use_column_width=True, output_format='auto', width=None)
