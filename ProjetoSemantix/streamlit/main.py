@@ -46,11 +46,7 @@ st.image(imagem, caption='Fonte: https://infinitysun.com.br/processo-geracao-ene
 st.markdown("""<p>A corrente elétrica inicialmente gerada pelas células solares é do tipo corrente contínua (CC). No entanto, a maioria dos dispositivos e sistemas elétricos utiliza corrente alternada (CA). Para adequar a eletricidade gerada às necessidades convencionais, são utilizados inversores.
 
 Os inversores têm a função de converter a corrente contínua em corrente alternada, tornando-a compatível com a infraestrutura elétrica convencional. Este é um passo crucial para garantir que a eletricidade gerada pelas usinas solares seja facilmente integrada à rede elétrica e utilizada de maneira eficiente.
-            No entanto, durante esse processo de conversão, há inevitáveis perdas de energia associadas a fatores físicos e elétricos.
-            <br><br><strong>Efeito Joule</strong>: Durante a conversão de CC para CA, ocorre o fenômeno conhecido como efeito Joule, que resulta em perdas de energia devido à resistência elétrica nos componentes dos inversores. Esse fenômeno gera calor, dissipando parte da energia inicialmente produzida pelos painéis solares.
-            <br><br><strong>Eficiência Intrínseca</strong>: Cada inversor possui uma eficiência intrínseca que representa o quão eficientemente ele realiza a conversão. Mesmo os inversores mais avançados e eficientes não conseguem atingir 100% de eficiência, o que significa que uma parte da energia é perdida no processo de transformação           
-            <br><strong>Variações de Tensão</strong>: Durante a conversão, as variações de tensão também podem contribuir para perdas. A adaptação da tensão da corrente contínua dos painéis solares para a corrente alternada utilizada nas redes elétricas pode gerar dissipação de energia.
-            </p>""",  unsafe_allow_html=True)
+           """,  unsafe_allow_html=True)
 
 
 st.markdown('---')
