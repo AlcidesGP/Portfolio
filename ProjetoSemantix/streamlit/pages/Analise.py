@@ -137,7 +137,7 @@ def decompor_tempo(dataset):
 @st.cache_data()
 def loader():
     #data = pd.read_csv("C:\\Users\\alcid\\GitHub\\Portfolio\\ProjetoSemantix\\Dados\\ds_solar_3.csv")
-    data = pd.read_csv("./Dados/ds_solar_3.csv")
+    data = pd.read_csv("ProjetoSemantix/Dados/ds_solar_3.csv")
     data.columns = data.columns.str.lower().str.replace(' ','_') 
     data['data'] = pd.to_datetime(data[['year', 'month']].assign(DAY=1)).dt.date
     return data
