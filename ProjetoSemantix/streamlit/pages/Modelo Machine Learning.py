@@ -20,7 +20,7 @@ st.markdown("""
 col1, col2, col3 = st.columns(3)
 
 with col2:
-    url = "https://seu-link-aqui.com"
+    url = "https://nbviewer.org/github/AlcidesGP/Portfolio/blob/main/ProjetoSemantix/Semantix_sgp.ipynb#4.1"
     st.link_button('Acesse ao notebook clicando aqui', url)
 
 st.markdown("""
