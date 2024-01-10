@@ -8,7 +8,7 @@ import plotly.express as px
 
 
 st.markdown('---')
-st.markdown("<h1 style='text-align: center; '>Otimização da Previsão de Produção de Energia Solar: Modelagem Aprimorada e Desenvolvimento de Algoritmos Avançados</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;color: #5E107E; '>Otimização da Previsão de Produção de Energia Solar: Modelagem Aprimorada e Desenvolvimento de Algoritmos Avançados</h1>", unsafe_allow_html=True)
 st.markdown('---')
 
 st.markdown("## Introdução ")
@@ -61,7 +61,7 @@ def main():
 
     with col3:
          st.markdown('<style>div.Widget.row-widget.stRadio > div{flex-direction:row;}</style>', unsafe_allow_html=True)
-         st.markdown('<p style="border: 2px solid #FFFFFF; border-radius: 5px; padding: 10px;">Métricas de Avaliação <br>R2: 81.28% <br>RMSE: 4454.20 KW </p>', unsafe_allow_html=True)
+         st.markdown('<p style="border: 2px solid #000000; border-radius: 5px; padding: 10px;">Métricas de Avaliação <br>R2: 81.28% <br>RMSE: 4454.20 KW </p>', unsafe_allow_html=True)
 
     fig = px.scatter(df['base_r'] - df['base_p'], title='Gráfico de Dispersão')
 
@@ -80,7 +80,7 @@ def main():
         y1= 4454.20,
         x0=df['base_r'].index.min(),
         x1=df['base_r'].index.max(),   # Ajuste conforme necessário para a largura do gráfico
-        line=dict(color='yellow', width=1, dash='dash')
+        line=dict(color='#5E107E', width=1, dash='dash')
     )
 )
     fig.add_shape(
@@ -90,7 +90,7 @@ def main():
         y1=- 4454.20,
         x0=df['base_r'].index.min(),
         x1=df['base_r'].index.max(),   # Ajuste conforme necessário para a largura do gráfico
-        line=dict(color='yellow', width=1, dash='dash')
+        line=dict(color='#5E107E', width=1, dash='dash')
     )
 )
     fig.update_xaxes(title_text='índice')
@@ -104,7 +104,7 @@ def main():
 
     with col3:
          st.markdown('<style>div.Widget.row-widget.stRadio > div{flex-direction:row;}</style>', unsafe_allow_html=True)
-         st.markdown('<p style="border: 2px solid #FFFFFF; border-radius: 5px; padding: 10px;">Métricas de Avaliação <br>R2: 87.09% <br>RMSE: 3699.41 KW </p>', unsafe_allow_html=True)
+         st.markdown('<p style="border: 2px solid #000000; border-radius: 5px; padding: 10px;">Métricas de Avaliação <br>R2: 87.09% <br>RMSE: 3699.41 KW </p>', unsafe_allow_html=True)
 
     fig = px.scatter(df['fe_r'] - df['fe_p'], title='Gráfico de Dispersão')
 
@@ -123,7 +123,7 @@ def main():
         y1= 3699.41,
         x0=df['base_r'].index.min(),
         x1=df['base_r'].index.max(),   # Ajuste conforme necessário para a largura do gráfico
-        line=dict(color='yellow', width=1, dash='dash')
+        line=dict(color='#5E107E', width=1, dash='dash')
     )
 )
     fig.add_shape(
@@ -133,7 +133,7 @@ def main():
         y1=- 3699.41,
         x0=df['base_r'].index.min(),
         x1=df['base_r'].index.max(),   # Ajuste conforme necessário para a largura do gráfico
-        line=dict(color='yellow', width=1, dash='dash')
+        line=dict(color='#5E107E', width=1, dash='dash')
     )
 )
     fig.update_xaxes(title_text='índice')
@@ -148,7 +148,7 @@ def main():
 
     with col3:
          st.markdown('<style>div.Widget.row-widget.stRadio > div{flex-direction:row;}</style>', unsafe_allow_html=True)
-         st.markdown('<p style="border: 2px solid #FFFFFF; border-radius: 5px; padding: 10px;">Métricas de Avaliação <br>R2: 99.96% <br>RMSE: 197.41 KW </p>', unsafe_allow_html=True)
+         st.markdown('<p style="border: 2px solid #000000; border-radius: 5px; padding: 10px;">Métricas de Avaliação <br>R2: 99.96% <br>RMSE: 197.41 KW </p>', unsafe_allow_html=True)
 
     fig = px.scatter(df['real'] - df['forecast'], title='Gráfico de Dispersão')
 
@@ -167,7 +167,7 @@ def main():
         y1= 197.41,
         x0=df['base_r'].index.min(),
         x1=df['base_r'].index.max(),   # Ajuste conforme necessário para a largura do gráfico
-        line=dict(color='yellow', width=1, dash='dash')
+        line=dict(color='#5E107E', width=1, dash='dash')
     )
 )
     fig.update_xaxes(title_text='índice')

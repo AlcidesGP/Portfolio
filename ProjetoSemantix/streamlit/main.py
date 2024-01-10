@@ -7,7 +7,7 @@ imagem = Image.open("ProjetoSemantix/streamlit/img_sem.png")
 #imagem = Image.open("C:\\Users\\alcid\\GitHub\\Portfolio\\ProjetoSemantix\\streamlit\\img_sem.png")
 
 st.image(imagem)
-st.markdown("<h1 style='text-align: center; color: white;'>Sob o Sol dos Dados: Análise e Modelagem Preditiva na Produção Diária de Energia Solar</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #5E107E;'>Sob o Sol dos Dados: Análise e Modelagem Preditiva na Produção Diária de Energia Solar</h1>", unsafe_allow_html=True)
 
 
 #st.markdown("<h1 style='text-align: center; color: orange;'>Como funciona uma usina solar?</h1>", unsafe_allow_html=True)

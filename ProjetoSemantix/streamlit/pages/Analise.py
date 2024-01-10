@@ -8,7 +8,7 @@ import plotly.express as px
 from sklearn.preprocessing import LabelEncoder
 
 st.markdown('---')
-st.markdown("<h1 style='text-align: center; '>Sob o Sol dos Dados: Iluminando a Escuridão do Desconhecido com a Análise de Dados.</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center ;color: #5E107E; '>Sob o Sol dos Dados: Iluminando a Escuridão do Desconhecido com a Análise de Dados.</h1>", unsafe_allow_html=True)
 st.markdown('---')
 st.subheader(" Plano de análise: Análise de Produção de Energia Solar")
 
@@ -157,7 +157,7 @@ class correlation:
         df_matrix = dt.copy().corr('spearman')
         mask = np.triu(np.ones_like(df_matrix, dtype=bool))
         fig = plt.figure(figsize=(15,10))
-        fig.set_facecolor('#5E107E')
+        #fig.set_facecolor('#5E107E')
         figura = sns.heatmap(df_matrix, mask=mask,  annot=True, cbar=False, cmap='mako')
         figura.set_xticklabels(figura.get_xticklabels(), rotation=45)
         return figura
@@ -171,11 +171,11 @@ def main():
     st.markdown('<style>div.Widget.row-widget.stRadio > div{flex-direction:row;}</style>', unsafe_allow_html=True)
     st.markdown('<h3 style="border: 2px solid #5E107E; border-radius: 5px; padding: 10px;">Gráfico de Correlação Entre as Variáveis</h3>', unsafe_allow_html=True)
     fig = correlation(df).correlation_matrix()
-    fig.set_facecolor('#5E107E')
-    fig.tick_params(axis='x', colors='white')  # Cor dos ticks do eixo x
-    fig.tick_params(axis='y', colors='white')  # Cor dos ticks do eixo y
-    fig.xaxis.label.set_color('white')  # Cor do rótulo do eixo x
-    fig.yaxis.label.set_color('white')  # Cor do rótulo do eixo y
+   # fig.set_facecolor('#5E107E')
+    fig.tick_params(axis='x', colors='#5E107E')  # Cor dos ticks do eixo x
+    fig.tick_params(axis='y', colors='#5E107E')  # Cor dos ticks do eixo y
+    fig.xaxis.label.set_color('#5E107E')  # Cor do rótulo do eixo x
+    fig.yaxis.label.set_color('#5E107E')  # Cor do rótulo do eixo y
     st.pyplot(plt)
 
     st.markdown('<p style="border: 2px solid #FFFFFF; border-radius: 5px; padding: 10px;">Como forma de medir a correlação entre as variáveis, foi utilizado o modelo de spearman, modelo esse de correlação não paramétrica., muito útil quando as correlações são não lineares ou quando os dados podem apresentar outliers. A escala de correlação de Spearman varia de -1 a 1, semelhante à escala de correlação de Pearson (usada para modelos lineares), mas a interpretação é um pouco diferente. A correlação de Spearman avalia a relação monotônica entre duas variáveis, ou seja, se, à medida que uma variável aumenta, a outra também aumenta (ou diminui), mesmo que não seja de forma linear.     - Com o intuito de alcançar os objetivos acordados no plano de análise, a avaliação das correlações será feita sobre a variável target, chamada de power_generated, visto que buscamos compreender como as outras variáveis interagem e se relacionam com a produção de energia solar. Começando pelas correlações negativas, duas variáveis apresentam destaque: distance_to_solar_noon e relative_humidity. Em contrapartida, as variáveis positivas na correlação são: is_daylight e average_wind_speed_(period). Essa análise inicial nos permite começar a enxergar como o alvo interage com as variáveis, permitindo assim buscar por insights e padrões.</p>', unsafe_allow_html=True)
@@ -192,23 +192,22 @@ def main():
         fig = sns.boxplot(
             data=df, x='data', 
             y='power_generated',
-            whiskerprops=dict(linestyle='-', linewidth=2, color='white'),
-            capprops=dict(linestyle='-', linewidth=2, color='white'),  
-            flierprops=dict(markerfacecolor='white', markeredgecolor='white'),
+            whiskerprops=dict(linestyle='-', linewidth=2, color='grey'),
+            capprops=dict(linestyle='-', linewidth=2, color='grey'),  
+            flierprops=dict(markerfacecolor='grey', markeredgecolor='grey'),
             palette="mako"
               )
         
         ## Configuração de imagem
         plt.xticks(rotation=45)
-        fig.set_facecolor('#5E107E')
-        figura.set_facecolor('#5E107E')
-        fig.tick_params(axis='x', colors='white')  # Cor dos ticks do eixo x
-        fig.tick_params(axis='y', colors='white')  # Cor dos ticks do eixo y
-        fig.xaxis.label.set_color('white')  # Cor do rótulo do eixo x
-        fig.yaxis.label.set_color('white')  # Cor do rótulo do eixo y
+
+        fig.tick_params(axis='x', colors='#5E107E')  # Cor dos ticks do eixo x
+        fig.tick_params(axis='y', colors='#5E107E')  # Cor dos ticks do eixo y
+        fig.xaxis.label.set_color('#5E107E')  # Cor do rótulo do eixo x
+        fig.yaxis.label.set_color('#5E107E')  # Cor do rótulo do eixo y
         sns.despine()
-        fig.spines['bottom'].set_color('white')  # Cor do eixo X
-        fig.spines['left'].set_color('white') 
+        fig.spines['bottom'].set_color('#5E107E')  # Cor do eixo X
+        fig.spines['left'].set_color('#5E107E') 
         plt.xlabel('Data', fontsize=20)
         plt.ylabel('Geração de energia', fontsize=20)
 
@@ -222,24 +221,22 @@ def main():
         fig = sns.boxplot(data=df, 
                             x='first_hour_of_period', 
                             y='power_generated',
-                            whiskerprops=dict(linestyle='-', linewidth=2, color='white'),
-                            capprops=dict(linestyle='-', linewidth=2, color='white'),  
-                            flierprops=dict(markerfacecolor='white', markeredgecolor='white'),
+                            whiskerprops=dict(linestyle='-', linewidth=2, color='grey'),
+                            capprops=dict(linestyle='-', linewidth=2, color='grey'),  
+                            flierprops=dict(markerfacecolor='grey', markeredgecolor='grey'),
                             palette="mako"
               )
 
 
 
        ## Configuração de imagem
-        fig.set_facecolor('#5E107E')
-        figura.set_facecolor('#5E107E')
-        fig.tick_params(axis='x', colors='white')  # Cor dos ticks do eixo x
-        fig.tick_params(axis='y', colors='white')  # Cor dos ticks do eixo y
-        fig.xaxis.label.set_color('white')  # Cor do rótulo do eixo x
-        fig.yaxis.label.set_color('white')  # Cor do rótulo do eixo y
+        fig.tick_params(axis='x', colors='#5E107E')  # Cor dos ticks do eixo x
+        fig.tick_params(axis='y', colors='#5E107E')  # Cor dos ticks do eixo y
+        fig.xaxis.label.set_color('#5E107E')  # Cor do rótulo do eixo x
+        fig.yaxis.label.set_color('#5E107E')  # Cor do rótulo do eixo y
         sns.despine()
-        fig.spines['bottom'].set_color('white')  # Cor do eixo X
-        fig.spines['left'].set_color('white') 
+        fig.spines['bottom'].set_color('#5E107E')  # Cor do eixo X
+        fig.spines['left'].set_color('#5E107E') 
         plt.xlabel('Intervalo de Horas', fontsize=20)
         plt.ylabel('Geração de energia', fontsize=20)
         ## Mostrar imagem
@@ -260,23 +257,21 @@ def main():
         figura = plt.figure(figsize=(10,8))
         fig = sns.boxplot(
             data=df, x='power_generated', y='visibility', orient='h',
-            whiskerprops=dict(linestyle='-', linewidth=2, color='white'),
-            capprops=dict(linestyle='-', linewidth=2, color='white'),  
-            flierprops=dict(markerfacecolor='white', markeredgecolor='white'),
+            whiskerprops=dict(linestyle='-', linewidth=2, color='grey'),
+            capprops=dict(linestyle='-', linewidth=2, color='grey'),  
+            flierprops=dict(markerfacecolor='grey', markeredgecolor='grey'),
             palette="mako"
               )
         
         ## Configuração de imagem
         plt.xticks(rotation=45)
-        fig.set_facecolor('#5E107E')
-        figura.set_facecolor('#5E107E')
-        fig.tick_params(axis='x', colors='white')  # Cor dos ticks do eixo x
-        fig.tick_params(axis='y', colors='white')  # Cor dos ticks do eixo y
-        fig.xaxis.label.set_color('white')  # Cor do rótulo do eixo x
-        fig.yaxis.label.set_color('white')  # Cor do rótulo do eixo y
+        fig.tick_params(axis='x', colors='#5E107E')  # Cor dos ticks do eixo x
+        fig.tick_params(axis='y', colors='#5E107E')  # Cor dos ticks do eixo y
+        fig.xaxis.label.set_color('#5E107E')  # Cor do rótulo do eixo x
+        fig.yaxis.label.set_color('#5E107E')  # Cor do rótulo do eixo y
         sns.despine()
-        fig.spines['bottom'].set_color('white')  # Cor do eixo X
-        fig.spines['left'].set_color('white') 
+        fig.spines['bottom'].set_color('#5E107E')  # Cor do eixo X
+        fig.spines['left'].set_color('#5E107E') 
         plt.xlabel('Geração de Energia', fontsize=18)
         plt.ylabel('Visibilidade', fontsize=18)
 
@@ -290,24 +285,22 @@ def main():
 
         fig = sns.boxplot(data=df, 
                             x='power_generated', y='sky_cover', orient='h',
-                            whiskerprops=dict(linestyle='-', linewidth=2, color='white'),
-                            capprops=dict(linestyle='-', linewidth=2, color='white'),  
-                            flierprops=dict(markerfacecolor='white', markeredgecolor='white'),
+                            whiskerprops=dict(linestyle='-', linewidth=2, color='grey'),
+                            capprops=dict(linestyle='-', linewidth=2, color='grey'),  
+                            flierprops=dict(markerfacecolor='grey', markeredgecolor='grey'),
                             palette="mako"
               )
 
 
 
        ## Configuração de imagem
-        fig.set_facecolor('#5E107E')
-        figura.set_facecolor('#5E107E')
-        fig.tick_params(axis='x', colors='white')  # Cor dos ticks do eixo x
-        fig.tick_params(axis='y', colors='white')  # Cor dos ticks do eixo y
-        fig.xaxis.label.set_color('white')  # Cor do rótulo do eixo x
-        fig.yaxis.label.set_color('white')  # Cor do rótulo do eixo y
+        fig.tick_params(axis='x', colors='#5E107E')  # Cor dos ticks do eixo x
+        fig.tick_params(axis='y', colors='#5E107E')  # Cor dos ticks do eixo y
+        fig.xaxis.label.set_color('#5E107E')  # Cor do rótulo do eixo x
+        fig.yaxis.label.set_color('#5E107E')  # Cor do rótulo do eixo y
         sns.despine()
-        fig.spines['bottom'].set_color('white')  # Cor do eixo X
-        fig.spines['left'].set_color('white') 
+        fig.spines['bottom'].set_color('#5E107E')  # Cor do eixo X
+        fig.spines['left'].set_color('#5E107E') 
         plt.xlabel('Geração de Energia', fontsize=18)
         plt.ylabel('Cobertura de Nuvens', fontsize=18)
 
@@ -323,25 +316,23 @@ def main():
 
     with col1:
         st.markdown('<style>div.Widget.row-widget.stRadio > div{flex-direction:row;}</style>', unsafe_allow_html=True)
-        st.markdown('<p style="border: 2px solid #5E107E; border-radius: 5px; padding: 10px;">Geração de energia em função da distância do meio dia</p>', unsafe_allow_html=True)
+        st.markdown('<p style="border: 2px solid #5E107E; border-radius: 5px; padding: 10px;">Geração em Função da Hora</p>', unsafe_allow_html=True)
         teal_palette = sns.color_palette("viridis", as_cmap=True)
 
         figura = plt.figure(figsize=(15,7))
         fig = sns.regplot(data=df, x='distance_to_solar_noon', y='power_generated',order=3,
-                          scatter_kws={'color': teal_palette(0.5)}, line_kws={'color': teal_palette(0.8)})
+                          scatter_kws={'color': teal_palette(0.8)}, line_kws={'color': teal_palette(0.1)})
 
         
         ## Configuração de imagem
         plt.xticks(rotation=45)
-        fig.set_facecolor('#5E107E')
-        figura.set_facecolor('#5E107E')
-        fig.tick_params(axis='x', colors='white')  # Cor dos ticks do eixo x
-        fig.tick_params(axis='y', colors='white')  # Cor dos ticks do eixo y
-        fig.xaxis.label.set_color('white')  # Cor do rótulo do eixo x
-        fig.yaxis.label.set_color('white')  # Cor do rótulo do eixo y
+        fig.tick_params(axis='x', colors='#5E107E')  # Cor dos ticks do eixo x
+        fig.tick_params(axis='y', colors='#5E107E')  # Cor dos ticks do eixo y
+        fig.xaxis.label.set_color('#5E107E')  # Cor do rótulo do eixo x
+        fig.yaxis.label.set_color('#5E107E')  # Cor do rótulo do eixo y
         sns.despine()
-        fig.spines['bottom'].set_color('white')  # Cor do eixo X
-        fig.spines['left'].set_color('white') 
+        fig.spines['bottom'].set_color('#5E107E')  # Cor do eixo X
+        fig.spines['left'].set_color('#5E107E') 
         plt.xlabel("Distância até o meio dia.", fontsize=20)
         plt.ylabel('Geraçãod de Energia', fontsize=20)
 
@@ -353,19 +344,17 @@ def main():
         st.markdown('<p style="border: 2px solid #5E107E; border-radius: 5px; padding: 10px;">Geração de energia x Umidade do Ar</p>', unsafe_allow_html=True)
         figura = plt.figure(figsize=(15,7))
         fig = sns.regplot(data=df, y='power_generated', x='relative_humidity',order=2,
-                          scatter_kws={'color': teal_palette(0.5)}, line_kws={'color': teal_palette(0.8)})
+                          scatter_kws={'color': teal_palette(0.8)}, line_kws={'color': teal_palette(0.1)})
 
 
        ## Configuração de imagem
-        fig.set_facecolor('#5E107E')
-        figura.set_facecolor('#5E107E')
-        fig.tick_params(axis='x', colors='white')  # Cor dos ticks do eixo x
-        fig.tick_params(axis='y', colors='white')  # Cor dos ticks do eixo y
-        fig.xaxis.label.set_color('white')  # Cor do rótulo do eixo x
-        fig.yaxis.label.set_color('white')  # Cor do rótulo do eixo y
+        fig.tick_params(axis='x', colors='#5E107E')  # Cor dos ticks do eixo x
+        fig.tick_params(axis='y', colors='#5E107E')  # Cor dos ticks do eixo y
+        fig.xaxis.label.set_color('#5E107E')  # Cor do rótulo do eixo x
+        fig.yaxis.label.set_color('#5E107E')  # Cor do rótulo do eixo y
         sns.despine()
-        fig.spines['bottom'].set_color('white')  # Cor do eixo X
-        fig.spines['left'].set_color('white') 
+        fig.spines['bottom'].set_color('#5E107E')  # Cor do eixo X
+        fig.spines['left'].set_color('#5E107E') 
         plt.xlabel("Umidade Relativa do Ar", fontsize=20)
         plt.ylabel("Geração de Energia", fontsize=20)
 
@@ -382,20 +371,18 @@ def main():
 
         figura = plt.figure(figsize=(15,7))
         fig = sns.regplot(data=df, x='average_temperature_(day)', y='power_generated',
-                          scatter_kws={'color': teal_palette(0.5)}, line_kws={'color': teal_palette(0.8)})
+                          scatter_kws={'color': teal_palette(0.8)}, line_kws={'color': teal_palette(0.1)})
 
         
         ## Configuração de imagem
         plt.xticks(rotation=45)
-        fig.set_facecolor('#5E107E')
-        figura.set_facecolor('#5E107E')
-        fig.tick_params(axis='x', colors='white')  # Cor dos ticks do eixo x
-        fig.tick_params(axis='y', colors='white')  # Cor dos ticks do eixo y
-        fig.xaxis.label.set_color('white')  # Cor do rótulo do eixo x
-        fig.yaxis.label.set_color('white')  # Cor do rótulo do eixo y
+        fig.tick_params(axis='x', colors='#5E107E')  # Cor dos ticks do eixo x
+        fig.tick_params(axis='y', colors='#5E107E')  # Cor dos ticks do eixo y
+        fig.xaxis.label.set_color('#5E107E')  # Cor do rótulo do eixo x
+        fig.yaxis.label.set_color('#5E107E')  # Cor do rótulo do eixo y
         sns.despine()
-        fig.spines['bottom'].set_color('white')  # Cor do eixo X
-        fig.spines['left'].set_color('white') 
+        fig.spines['bottom'].set_color('#5E107E')  # Cor do eixo X
+        fig.spines['left'].set_color('#5E107E') 
         plt.xlabel("Temperatura Média Diária em Fahrenheit (°F).", fontsize=20)
         plt.ylabel("Geração de Energia", fontsize=20)
 
@@ -407,19 +394,17 @@ def main():
         st.markdown('<p style="border: 2px solid #5E107E; border-radius: 5px; padding: 10px;">Geração de energia em função da pressão barométrica</p>', unsafe_allow_html=True)
         figura = plt.figure(figsize=(15,7))
         fig = sns.regplot(data=df, x='average_barometric_pressure_(period)', y='power_generated',order=1,
-                          scatter_kws={'color': teal_palette(0.5)}, line_kws={'color': teal_palette(0.8)})
+                          scatter_kws={'color': teal_palette(0.8)}, line_kws={'color': teal_palette(0.1)})
 
 
        ## Configuração de imagem
-        fig.set_facecolor('#5E107E')
-        figura.set_facecolor('#5E107E')
-        fig.tick_params(axis='x', colors='white')  # Cor dos ticks do eixo x
-        fig.tick_params(axis='y', colors='white')  # Cor dos ticks do eixo y
-        fig.xaxis.label.set_color('white')  # Cor do rótulo do eixo x
-        fig.yaxis.label.set_color('white')  # Cor do rótulo do eixo y
+        fig.tick_params(axis='x', colors='#5E107E')  # Cor dos ticks do eixo x
+        fig.tick_params(axis='y', colors='#5E107E')  # Cor dos ticks do eixo y
+        fig.xaxis.label.set_color('#5E107E')  # Cor do rótulo do eixo x
+        fig.yaxis.label.set_color('#5E107E')  # Cor do rótulo do eixo y
         sns.despine()
-        fig.spines['bottom'].set_color('white')  # Cor do eixo X
-        fig.spines['left'].set_color('white') 
+        fig.spines['bottom'].set_color('#5E107E')  # Cor do eixo X
+        fig.spines['left'].set_color('#5E107E') 
         plt.xlabel("Pressão Barométrica Média no Período", fontsize=20)
         plt.ylabel("Geração de Energia", fontsize=20)
         ## Mostrar imagem
