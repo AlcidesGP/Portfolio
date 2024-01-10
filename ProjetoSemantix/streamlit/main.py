@@ -2,8 +2,9 @@ import streamlit as st
 from PIL import Image
 
 st.set_page_config(page_title='Projeto Semantix', page_icon=':bar_chart:', layout='wide')
-imagem = Image.open("ProjetoSemantix/streamlit/img_sem.png")
-#imagem = Image.open("C:\\Users\\alcid\\GitHub\\Portfolio\\ProjetoSemantix\\streamlit\\img_sem.png")
+#imagem = Image.open("ProjetoSemantix/streamlit/img_sem.png")
+imagem = Image.open("C:\\Users\\alcid\\GitHub\\Portfolio\\ProjetoSemantix\\streamlit\\img_sem.png")
+
 st.image(imagem)
 st.markdown("<h1 style='text-align: center; color: white;'>Sob o Sol dos Dados: Análise e Modelagem Preditiva na Produção Diária de Energia Solar</h1>", unsafe_allow_html=True)
 
@@ -37,10 +38,10 @@ Esses campos solares são dimensionados de acordo com a demanda de eletricidade 
 
 
 st.subheader("Inversores")
-imagem = Image.open("ProjetoSemantix/streamlit/solar.png")
+#imagem = Image.open("ProjetoSemantix/streamlit/solar.png")
 #imagem = Image.open("C:\\Users\\alcid\\GitHub\\Portfolio\\ProjetoSemantix\\streamlit\\solar.png")
 
-st.image(imagem, caption='Fonte: https://infinitysun.com.br/processo-geracao-energia-eletrica/', use_column_width=True, output_format='auto', width=None)
+#st.image(imagem, caption='Fonte: https://infinitysun.com.br/processo-geracao-energia-eletrica/', use_column_width=True, output_format='auto', width=None)
 
 
 st.markdown("""<p>A corrente elétrica inicialmente gerada pelas células solares é do tipo corrente contínua (CC). No entanto, a maioria dos dispositivos e sistemas elétricos utiliza corrente alternada (CA). Para adequar a eletricidade gerada às necessidades convencionais, são utilizados inversores.
@@ -49,15 +50,20 @@ Os inversores têm a função de converter a corrente contínua em corrente alte
            """,  unsafe_allow_html=True)
 
 
+st.subheader("Fatores Externos")
+
+st.markdown('A produção de energia solar está intrinsecamente ligada a uma variedade de fatores externos que desempenham papéis cruciais na determinação da quantidade de energia gerada. A compreensão e análise desses fatores são fundamentais para otimizar a eficiência dos sistemas de energia solar. Exemplificando esse fatores podemos citar a sazonalidade, horário do dia, visibilidade, umidade do ar e tantos outros que serão abordados com a base de dados vista mais a frente. ')
+
 st.markdown('---')
 
-st.header('Dados de Produção Diária de Energia Solar')
+st.header('Energia Solar: Dados de Produção.')
 
 st.markdown("""
-O conjunto de dados que será utilizado neste projeto compreende informações provenientes de duas plantas solares, envolvendo dados como temperatura, informações sobre equipamentos, produção de energia e uma variedade de outros parâmetros relevantes. O trabalho a ser conduzido com base nesses dados será estruturado em duas fases distintas: a análise dos dados e o desenvolvimento de modelos de Machine Learning.
+O conjunto de dados utilizado neste projeto foi coletado pela pesquisadora Ph.D. Alexandra Constantin e compreende 16 atributos relacionados à produção diária de energia solar. Esses dados incorporam fatores temporais e climáticos essenciais, fundamentais para a análise da produção solar.
+<br>O projeto está estruturado em duas etapas, acessíveis através do filtro lateral, permitindo a navegação entre as páginas. A primeira fase abrange uma análise exploratória dos dados, proporcionando uma compreensão aprofundada do comportamento da produção de energia solar e servindo como uma ferramenta de exploração dos dados.
+<br>A segunda parte do projeto consiste no desenvolvimento do modelo de previsão de machine learning. Nessa etapa você poderá ter acesso tanto aos resultados como também para o notebook de desenvolvimento de todos os modelos e de como o resultado final foi alcançado. 
 
-Na primeira etapa, a análise dos dados, exploraremos minuciosamente o conjunto de informações disponíveis. Isso envolverá a identificação de padrões, tendências e correlações significativas que possam fornecer insights sobre o desempenho das plantas solares.
-Na sequência, avançaremos para a segunda fase, centrada no desenvolvimento de modelos de Machine Learning. Nesta etapa, utilizaremos técnicas avançadas de aprendizado de máquina para criar modelos preditivos capazes de antecipar o comportamento futuro das plantas solares com base nos dados históricos disponíveis.              
+
 """,unsafe_allow_html=True)
 
 
