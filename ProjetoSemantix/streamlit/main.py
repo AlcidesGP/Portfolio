@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
 
+
 st.set_page_config(page_title='Projeto Semantix', page_icon=':bar_chart:', layout='wide')
 imagem = Image.open("ProjetoSemantix/streamlit/img_sem.png")
 #imagem = Image.open("C:\\Users\\alcid\\GitHub\\Portfolio\\ProjetoSemantix\\streamlit\\img_sem.png")
