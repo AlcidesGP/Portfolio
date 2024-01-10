@@ -45,7 +45,7 @@ st.markdown("""
 @st.cache_data()
 def loader():
     #data = pd.read_csv("C:\\Users\\alcid\\GitHub\\Portfolio\\ProjetoSemantix\\Dados\\resultados.csv")
-    data = pd.read_csv("./Dados/resultados.csv")
+    data = pd.read_csv("ProjetoSemantix/Dados/resultados.csv")
 
     return data
 
