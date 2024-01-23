@@ -11,7 +11,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import LabelEncoder, PowerTransformer, OneHotEncoder
 from sklearn.base import BaseEstimator, TransformerMixin
-import statsmodels.api as sm
+#import statsmodels.api as sm
 from PIL import Image
 
 imagem = Image.open("C:\\Users\\alcid\\GitHub\\Portfolio\\EBAC\\Projeto_Final\\ebac.png")
