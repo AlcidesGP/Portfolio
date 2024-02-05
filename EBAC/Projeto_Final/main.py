@@ -14,8 +14,10 @@ from sklearn.base import BaseEstimator, TransformerMixin
 #import statsmodels.api as sm
 from PIL import Image
 
-imagem = Image.open("EBAC/Projeto_Final/ebac.png")
+imagem = Image.open("C:\\Users\\alcid\\GitHub\\Portfolio\\EBAC\\Projeto_Final\\ebac.png")
 st.image(imagem)
+st.sidebar.title("Projeto Final")
+st.sidebar.markdown('----')
 ### Função para tratar os Zeros estruturais
 class tratamento_zero(BaseEstimator,TransformerMixin):
     def fit(self, X, y=None):
@@ -38,7 +40,7 @@ def modelo(p,pp, dt):
     X_transformed_df = pd.DataFrame.sparse.from_spmatrix(X_transformed, columns=feature_names)
     y = X_transformed_df.pop('cat__mau_True')
 
-    with open("EBAC/Projeto_Final/model_final.pkl", 'rb') as file:
+    with open("C:\\Users\\alcid\\GitHub\\Portfolio\\EBAC\\Projeto_Final\\model_final.pkl", 'rb') as file:
         model = pickle.load(file)
     
     resultado = model.fit(disp=False)
