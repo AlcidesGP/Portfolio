@@ -1,2 +1,2 @@
 # EM ATUALIZAÇÃO
-O dataset acima está em trabalho de evolução, você pode acessar ao meu portfólio através desse site: https://alcides-portfolio.netlify.app/#pro
+O portfólio do github está em trabalho de desenvolvimento e organização, você pode acessar ao meu portfólio oficial através desse site: https://alcides-portfolio.netlify.app/#pro
