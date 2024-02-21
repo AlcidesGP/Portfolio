@@ -28,6 +28,14 @@ A primeira função tem como objetivo fornecer informações sobre os tipos de d
 A segunda função gera gráficos que apresentam a distribuição dos atributos. Uma classe é dedicada aos atributos categóricos, representados por gráficos de barras, enquanto a outra é voltada para os atributos numéricos, exibidos por meio de gráficos de caixa. Os principais pontos de interesse aqui são dois: para os atributos categóricos, é crucial identificar categorias raras que possam interferir no desenvolvimento do modelo de machine learning, bem como não agregar informações significativas para a previsão dos resultados. Além disso, é importante analisar se há a presença de supercategorias e indicar os tratamentos adequados para cada situação. Já para os dados numéricos, o gráfico de caixa é fundamental para identificar a presença de outliers, que são pontos fora da curva e podem prejudicar tanto a construção de um modelo preditivo quanto a análise dos dados em si.
 
 A última função relaciona a variável de interesse com as variáveis explicativas, permitindo que insights valiosos surjam. Neste contexto, padrões de comportamento para as diferentes classes tornam-se evidentes por meio da visualização gráfica, fornecendo informações valiosas para a compreensão do dataset.
+
+### Questionamentos
+
+- A influência da data é significativa para a taxa de cancelamento dos dados?
+- A tempo de reserva influência nos cancelamentos?
+- Os pedidos especiais influênciam nos cancelamentos?
+- Há classes raras que devem ser tratadas?
+
 ## Modelos Preditivos
 ### Métricas de Avaliação
 Já que estamos falando de um modelo de classificação binária, há diversas métricas que podem servir de comparação, cada uma para uma necessidade específica, como forma de exemplo, temos: Curva ROC, Gini, KS, Recall, Precision, F1-score e matriz de confusão.
