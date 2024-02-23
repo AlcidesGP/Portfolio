@@ -183,7 +183,7 @@ class Numericos:
             atributo = variaveis[col]
                     # Plotar Texto legenda
                 
-            color = '#78C' 
+            color = '#12C' 
             
             box = sns.boxplot(data=dt, # Plotagem Gráfica
                                   orient='h',
