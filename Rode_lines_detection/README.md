@@ -1,3 +1,4 @@
+https://github.com/AlcidesGP/Portfolio/assets/146877995/ad66eafc-1268-4b95-92d5-f7482b8cc57d
 # Sumário
 - [Introdução](#introdução)
 - [Objetivos](#objetivos)
@@ -38,5 +39,9 @@ Ao combinar as funcionalidades dessas duas bibliotecas poderosas, foi possível 
 Nesta jornada de desenvolvimento, exploramos a aplicação de técnicas avançadas de processamento de imagens e aprendizado de máquina para a detecção de linhas de estrada em vídeos capturados por câmeras de veículos em movimento. Ao longo do projeto, utilizamos as bibliotecas OpenCV e NumPy para processar os dados, redimensionar frames, aplicar detecção de bordas e implementar a Transformada de Hough Probabilística para detectar as linhas da estrada.
 
 Essa detecção precisa e eficiente das linhas de estrada é fundamental para sistemas de assistência ao motorista e veículos autônomos, contribuindo significativamente para a segurança e eficiência na condução. 
+
+
+
+
 
 
