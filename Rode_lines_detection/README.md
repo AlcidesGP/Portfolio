@@ -1,9 +1,9 @@
-https://github.com/AlcidesGP/Portfolio/assets/146877995/ad66eafc-1268-4b95-92d5-f7482b8cc57d
+
 # Sumário
 - [Introdução](#introdução)
 - [Objetivos](#objetivos)
 - [Dados](#dados)
-- [Bibliotecas](#Bibliotecas)
+- [Bibliotecas](#bibliotecas)
 - [Conclusão](#conclusão)
 
 # Introdução
