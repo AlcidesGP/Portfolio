@@ -119,6 +119,8 @@ python-dateutil==2.8.2
 python-docx==1.1.0
 python-json-logger==2.0.7
 pytz==2023.3.post1
+pywin32==305.1
+pywinpty==2.0.10
 PyYAML==6.0.1
 pyzmq==25.1.2
 rapidfuzz==3.7.0
@@ -162,4 +164,3 @@ Werkzeug==3.0.1
 wheel==0.41.2
 win-inet-pton==1.1.0
 yarg==0.1.9
-
