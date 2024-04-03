@@ -1,0 +1,9 @@
+Objetivo e Abordagem
+Este livro pressupoe que vocé nao saiba quase nada sobre Aprendizado de Mäquinas
+Seu objetivo é fornecer os conceitos, as intuicoes e as ferramentas necessarias para im
+plementar programas capazes de aprender com os dados
+Abordaremos um grande nümero de técnicas, desde as mais simples as mais comu
+mente utilizadas (como a Regressao Linear) e até algumas das técnicas do Aprendizado
+Profundo que ganham competicoes com frequéncia.
+Em vez de implementar nossas próprias versöes de cada algoritmo, utilizaremos estru
+turas Python prontas para producao:
