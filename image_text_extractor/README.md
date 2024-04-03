@@ -44,5 +44,9 @@ Como demonstrado no vídeo abaixo, o script consegue captar todas as informaçõ
 
 
 
+https://github.com/AlcidesGP/Portfolio/assets/146877995/33c4ce39-1768-4c76-8d44-a5eae2afe301
+
+
+
 
 
