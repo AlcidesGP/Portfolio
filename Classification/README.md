@@ -2,7 +2,7 @@
 - [Introdução](#introdução)
 - [Objetivos](#objetivos)
 - [Dados](#dados)
-- [Métricas de avaliação](#métricas de avaliação)
+- [Métricas de Avaliação](#métricas) 
 - [Bibliotecas](#bibliotecas)
 - [Conclusão](#conclusão)
 
