@@ -1,0 +1,21 @@
+Visão Geral do Conjunto de Dados
+Este conjunto de dados contém pontuações e classificações ESG (Ambiental, Social e Governança) para um grande número de empresas de capital aberto de diversos setores. Os dados são fornecidos a nível de empresa, com cada linha representando uma empresa.
+
+Os campos principais incluem:
+
+Informações básicas da empresa: símbolo de ticker, nome da empresa, moeda, bolsa de valores, setor, URL do logotipo, URL do site
+Pontuações e classificações ambientais: environment_score, environment_grade, environment_level
+Pontuações e classificações sociais: social_score, social_grade, social_level
+Pontuações e classificações de governança: governance_score, governance_grade, governance_level
+Pontuações e classificações ESG totais: total_score, total_grade, total_level
+Data da última atualização dos dados ESG
+Identificador CIK
+As pontuações ambientais, sociais, de governança e totais são valores numéricos, enquanto as classificações correspondentes são classificações por letras (como AAA, BB, etc.) e os níveis são categóricos (como Alto, Médio, Baixo).
+
+Este conjunto de dados pode ser analisado para entender a distribuição das pontuações e classificações ESG entre diferentes empresas, setores e indústrias. Ele pode ser combinado com conjuntos de dados financeiros para explorar relações entre desempenho ESG e métricas-chave como lucratividade, valorização e retornos das ações. Os dados podem fornecer insights valiosos para investidores, gestores de ativos, analistas financeiros, estrategistas corporativos, formuladores de políticas e pesquisadores de sustentabilidade.
+
+Ao compartilhar esses dados publicamente, o provedor provavelmente visa trazer maior transparência às práticas corporativas de ESG, permitir uma melhor integração das considerações ESG nas decisões de investimento e criar incentivos para que as empresas melhorem seu desempenho ESG ao longo do tempo. A ampla disponibilidade de dados ESG robustos é fundamental para impulsionar o progresso em grandes objetivos sociais, como combater as mudanças climáticas e promover a equidade social.
+
+Veja ESG Compare (http://esgcompare.org) para uma demonstração interativa!
+
+Link de acesso aos dados: https://www.kaggle.com/datasets/alistairking/public-company-esg-ratings-dataset/data
